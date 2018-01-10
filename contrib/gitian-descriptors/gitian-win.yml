@@ -1,5 +1,5 @@
 ---
-name: "ecurrency-win-0.15"
+name: "ecurrency-win-0.1"
 enable_cache: true
 suites:
 - "trusty"

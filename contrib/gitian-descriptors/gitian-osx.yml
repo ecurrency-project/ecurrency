@@ -1,5 +1,5 @@
 ---
-name: "ecurrency-osx-0.15"
+name: "ecurrency-osx-0.1"
 enable_cache: true
 suites:
 - "trusty"
