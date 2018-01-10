@@ -1,5 +1,5 @@
 TOR SUPPORT IN ECURRENCY
-======================
+========================
 
 It is possible to run ECurrency as a Tor hidden service, and connect to such services.
 
@@ -8,7 +8,7 @@ configure Tor.
 
 
 1. Run ecurrency behind a Tor proxy
----------------------------------
+-----------------------------------
 
 The first step is running ECurrency behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
@@ -42,11 +42,11 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
 	HiddenServiceDir /var/lib/tor/ecurrency-service/
-	HiddenServicePort 9333 127.0.0.1:9333
-	HiddenServicePort 19335 127.0.0.1:19335
+	HiddenServicePort 9777 127.0.0.1:9777
+	HiddenServicePort 19779 127.0.0.1:19779
 
 The directory can be different of course, but (both) port numbers should be equal to
-your ecurrencyd's P2P listen port (9333 by default).
+your ecurrencyd's P2P listen port (9777 by default).
 
 	-externalip=X   You can tell ecurrency about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -81,7 +81,7 @@ as well, use `discover` instead:
 
 	./ecurrencyd ... -discover
 
-and open port 9333 on your firewall (or use -upnp).
+and open port 9777 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
