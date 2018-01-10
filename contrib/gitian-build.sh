@@ -191,7 +191,7 @@ then
 fi
 
 # Get signer
-if [[ -n"$1" ]]
+if [[ -n "$1" ]]
 then
     SIGNER=$1
     shift
@@ -257,12 +257,12 @@ if [[ $build = true ]]
 then
 	# Make output folder
 	mkdir -p ./ecurrency-binaries/${VERSION}
-	
+
 	# Build Dependencies
 	echo ""
 	echo "Building Dependencies"
 	echo ""
-	pushd ./gitian-builder	
+	pushd ./gitian-builder
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
@@ -331,10 +331,10 @@ then
 	echo "Verifying v${VERSION} Windows"
 	echo ""
 	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../ecurrency/contrib/gitian-descriptors/gitian-win.yml
-	# Mac OSX	
+	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
-	echo ""	
+	echo ""
 	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../ecurrency/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
@@ -345,14 +345,14 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../ecurrency/contrib/gitian-descriptors/gitian-osx-signer.yml	
+	./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../ecurrency/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
 # Sign binaries
 if [[ $sign = true ]]
 then
-	
+
         pushd ./gitian-builder
 	# Sign Windows
 	if [[ $windows = true ]]

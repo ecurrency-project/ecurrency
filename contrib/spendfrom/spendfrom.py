@@ -117,7 +117,7 @@ def list_available(bitcoind):
         # or pay-to-script-hash outputs right now; anything exotic is ignored.
         if pk["type"] != "pubkeyhash" and pk["type"] != "scripthash":
             continue
-        
+
         address = pk["addresses"][0]
         if address in address_summary:
             address_summary[address]["total"] += vout["value"]
@@ -163,7 +163,7 @@ def create_tx(bitcoind, fromaddresses, toaddress, amount, fee):
     # Python's json/jsonrpc modules have inconsistent support for Decimal numbers.
     # Instead of wrestling with getting json.dumps() (used by jsonrpc) to encode
     # Decimals, I'm casting amounts to float before sending them to bitcoind.
-    #  
+    #
     outputs = { toaddress : float(amount) }
     (inputs, change_amount) = select_coins(needed, potential_inputs)
     if change_amount > BASE_FEE:  # don't bother with zero or tiny change
