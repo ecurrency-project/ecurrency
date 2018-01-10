@@ -66,12 +66,12 @@
         <translation>Alım adresleri</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için kullanacağınız Litecoin adreslerinizdir. Litecoin yollamadan önce tutarı ve alıcının alım adresini her zaman kontrol ediniz.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için kullanacağınız eCurrency adreslerinizdir. eCurrency yollamadan önce tutarı ve alıcının alım adresini her zaman kontrol ediniz.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için kullanacağınız Litecoin adreslerinizdir. Her işlem için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için kullanacağınız eCurrency adreslerinizdir. Her işlem için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
         <translation>Uyarı: Eğer cüzdanınızı şifreler ve parolanızı kaybederseniz &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDECEKSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -188,8 +188,8 @@
         <translation>Cüzdan şifrelendi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işleminin bitirilmesi için %1 kapatılacak. Her ne kadar cüzdanınızı şifreleseniz de şifrelemenin litecoinlerinizi bilgisayarınıza bulaşan zararlılardan tam olarak koruyamayacağını unutmayın.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işleminin bitirilmesi için %1 kapatılacak. Her ne kadar cüzdanınızı şifreleseniz de şifrelemenin ecurrencylerinizi bilgisayarınıza bulaşan zararlılardan tam olarak koruyamayacağını unutmayın.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -346,8 +346,8 @@
         <translation>Diskteki bloklar yeniden indeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Bir litecoin adresine litecoin gönder</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Bir ecurrency adresine ecurrency gönder</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -370,8 +370,8 @@
         <translation>İletiyi &amp;kontrol et...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -398,12 +398,12 @@
         <translation>Cüzdanınıza ait özel anahtarları şifreleyin</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>İletileri adreslerin size ait olduğunu ispatlamak için Litecoin adresleri ile imzala</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>İletileri adreslerin size ait olduğunu ispatlamak için eCurrency adresleri ile imzala</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Belirtilen Litecoin adresleri ile imzalandıklarından emin olmak için iletileri kontrol et</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Belirtilen eCurrency adresleri ile imzalandıklarından emin olmak için iletileri kontrol et</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -422,8 +422,8 @@
         <translation>Sekme araç çubuğu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Ödeme talep et (QR kodu ve litecoin URI'si oluşturur)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Ödeme talep et (QR kodu ve ecurrency URI'si oluşturur)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -434,16 +434,16 @@
         <translation>Kullanılmış alım adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Bir litecoin: bağlantısı ya da ödeme talebi aç</translation>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Bir ecurrency: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>Litecoin şebekesine %n faal bağlantı</numerusform><numerusform>Litecoin ağına %n etkin bağlantı var</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>eCurrency şebekesine %n faal bağlantı</numerusform><numerusform>eCurrency ağına %n etkin bağlantı var</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -486,8 +486,8 @@
         <translation>Güncel</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>Olası Litecoin komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>Olası eCurrency komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -556,15 +556,15 @@
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilitlidir&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Ölümcül bir hata oluştu. Litecoin yazılımı artık güvenli bir şekilde çalışmaya devam edemediği için kapatılacaktır.</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>Ölümcül bir hata oluştu. eCurrency yazılımı artık güvenli bir şekilde çalışmaya devam edemediği için kapatılacaktır.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Litecoin Seçimi</translation>
+        <translation>eCurrency Seçimi</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -746,8 +746,8 @@
         <translation>Gönderi adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Girilen "%1" adresi geçerli bir Litecoin adresi değildir.</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>Girilen "%1" adresi geçerli bir eCurrency adresi değildir.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -819,229 +819,229 @@
         <translation>Blok zinciri saklamayı sınırlamayı seçtiyseniz (budama), geçmiş veriler yine de indirilmeli ve işlenmelidir, ancak disk kullanımınızı düşük tutmak için daha sonra silinmelidir.</translation>
     </message>
     <message>
-        <source>Use the default data directory</source>
-        <translation>Varsayılan veri klasörünü kullan</translation>
+        <source>use the default data directory</source>
+        <translation>varsayılan veri klasörünü kullan</translation>
     </message>
     <message>
-        <source>Use a custom data directory:</source>
-        <translation>Özel bir veri klasörü kullan:</translation>
+        <source>use a custom data directory:</source>
+        <translation>özel bir veri klasörü kullan:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>ecurrency</source>
+        <translation>ecurrency</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Yaklaşık %1 GB veri bu dizinde depolanacak.</translation>
+        <source>approximately %1 gb of data will be stored in this directory.</source>
+        <translation>yaklaşık %1 gb veri bu dizinde depolanacak.</translation>
     </message>
     <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>Cüzdan da bu dizinde depolanacaktır.</translation>
+        <source>the wallet will also be stored in this directory.</source>
+        <translation>cüzdan da bu dizinde depolanacaktır.</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Hata: belirtilen "%1" veri klasörü oluşturulamaz.</translation>
+        <source>error: specified data directory "%1" cannot be created.</source>
+        <translation>hata: belirtilen "%1" veri klasörü oluşturulamaz.</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Hata</translation>
+        <source>error</source>
+        <translation>hata</translation>
     </message>
     <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB boş alan mevcuttur</numerusform><numerusform>%n GB boş alan mevcuttur</numerusform></translation>
+        <source>%n gb of free space available</source>
+        <translation><numerusform>%n gb boş alan mevcuttur</numerusform><numerusform>%n gb boş alan mevcuttur</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(gereken %n GB alandan)</numerusform><numerusform>(gereken %n GB alandan)</numerusform></translation>
+        <source>(of %n gb needed)</source>
+        <translation><numerusform>(gereken %n gb alandan)</numerusform><numerusform>(gereken %n gb alandan)</numerusform></translation>
     </message>
 </context>
 <context>
-    <name>ModalOverlay</name>
+    <name>modaloverlay</name>
     <message>
-        <source>Form</source>
-        <translation>Form</translation>
+        <source>form</source>
+        <translation>form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız litecoin ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
+        <source>recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. this information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız ecurrency ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Henüz görüntülenmeyen işlemlerden etkilenen litecoinleri harcama girişiminde bulunmak ağ tarafından kabul edilmeyecektir.</translation>
+        <source>attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>henüz görüntülenmeyen işlemlerden etkilenen ecurrencyleri harcama girişiminde bulunmak ağ tarafından kabul edilmeyecektir.</translation>
     </message>
     <message>
-        <source>Number of blocks left</source>
-        <translation>Kalan blok sayısı</translation>
+        <source>number of blocks left</source>
+        <translation>kalan blok sayısı</translation>
     </message>
     <message>
-        <source>Unknown...</source>
-        <translation>Bilinmiyor...</translation>
+        <source>unknown...</source>
+        <translation>bilinmiyor...</translation>
     </message>
     <message>
-        <source>Last block time</source>
-        <translation>Son blok zamanı</translation>
+        <source>last block time</source>
+        <translation>son blok zamanı</translation>
     </message>
     <message>
-        <source>Progress</source>
-        <translation>İlerleme</translation>
+        <source>progress</source>
+        <translation>ilerleme</translation>
     </message>
     <message>
-        <source>Progress increase per hour</source>
-        <translation>Saat başı ilerleme artışı</translation>
+        <source>progress increase per hour</source>
+        <translation>saat başı ilerleme artışı</translation>
     </message>
     <message>
         <source>calculating...</source>
         <translation>hesaplanıyor...</translation>
     </message>
     <message>
-        <source>Estimated time left until synced</source>
-        <translation>Senkronize edilene kadar kalan tahmini süre</translation>
+        <source>estimated time left until synced</source>
+        <translation>senkronize edilene kadar kalan tahmini süre</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Gizle</translation>
+        <source>hide</source>
+        <translation>gizle</translation>
     </message>
     <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Bilinmeyen. Üstbilgiler Senkronize Ediliyor (%1)...</translation>
-    </message>
-</context>
-<context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>URI Aç</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Dosyadan veya URI'den ödeme talebi aç</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Ödeme talebi dosyasını seç</translation>
-    </message>
-    <message>
-        <source>Select payment request file to open</source>
-        <translation>Açılacak ödeme talebi dosyasını seç</translation>
+        <source>unknown. syncing headers (%1)...</source>
+        <translation>bilinmeyen. üstbilgiler senkronize ediliyor (%1)...</translation>
     </message>
 </context>
 <context>
-    <name>OptionsDialog</name>
+    <name>openuridialog</name>
     <message>
-        <source>Options</source>
-        <translation>Seçenekler</translation>
+        <source>open uri</source>
+        <translation>uri aç</translation>
     </message>
     <message>
-        <source>&amp;Main</source>
-        <translation>&amp;Genel</translation>
+        <source>open payment request from uri or file</source>
+        <translation>dosyadan veya uri'den ödeme talebi aç</translation>
     </message>
     <message>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Sistemde oturum açıldığında %1 programını otomatik olarak başlat.</translation>
+        <source>uri:</source>
+        <translation>uri:</translation>
     </message>
     <message>
-        <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Açılışta %1 açılsın</translation>
+        <source>select payment request file</source>
+        <translation>ödeme talebi dosyasını seç</translation>
     </message>
     <message>
-        <source>Size of &amp;database cache</source>
-        <translation>&amp;Veritabanı önbelleğinin boyutu</translation>
+        <source>select payment request file to open</source>
+        <translation>açılacak ödeme talebi dosyasını seç</translation>
+    </message>
+</context>
+<context>
+    <name>optionsdialog</name>
+    <message>
+        <source>options</source>
+        <translation>seçenekler</translation>
     </message>
     <message>
-        <source>MB</source>
-        <translation>MB</translation>
+        <source>&amp;main</source>
+        <translation>&amp;genel</translation>
     </message>
     <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation>İş parçacıklarını &amp;denetleme betiği sayısı</translation>
+        <source>automatically start %1 after logging in to the system.</source>
+        <translation>sistemde oturum açıldığında %1 programını otomatik olarak başlat.</translation>
     </message>
     <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Vekil sunucusunun IP adresi (mesela IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <source>&amp;start %1 on system login</source>
+        <translation>&amp;açılışta %1 açılsın</translation>
     </message>
     <message>
-        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Bu şebeke türü yoluyla eşlere bağlanmak için belirtilen varsayılan SOCKS5 vekil sunucusunun kullanılıp kullanılmadığını gösterir.</translation>
+        <source>size of &amp;database cache</source>
+        <translation>&amp;veritabanı önbelleğinin boyutu</translation>
     </message>
     <message>
-        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Tor gizli servisleri aracılığıyla eşlere ulaşmak için ayrı SOCKS&amp;5 proksi kullanın:</translation>
+        <source>mb</source>
+        <translation>mb</translation>
     </message>
     <message>
-        <source>Hide the icon from the system tray.</source>
-        <translation>Simgeyi sistem tepsisinden gizleyin.</translation>
+        <source>number of script &amp;verification threads</source>
+        <translation>iş parçacıklarını &amp;denetleme betiği sayısı</translation>
     </message>
     <message>
-        <source>&amp;Hide tray icon</source>
-        <translation>&amp;Simgeyi gizle</translation>
+        <source>ip address of the proxy (e.g. ipv4: 127.0.0.1 / ipv6: ::1)</source>
+        <translation>vekil sunucusunun ip adresi (mesela ipv4: 127.0.0.1 / ipv6: ::1)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Pencere kapatıldığında uygulamadan çıkmak yerine uygulamayı küçültür. Bu seçenek etkinleştirildiğinde, uygulama sadece menüden çıkış seçildiğinde kapanacaktır.</translation>
+        <source>shows if the supplied default socks5 proxy is used to reach peers via this network type.</source>
+        <translation>bu şebeke türü yoluyla eşlere bağlanmak için belirtilen varsayılan socks5 vekil sunucusunun kullanılıp kullanılmadığını gösterir.</translation>
     </message>
     <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>İşlemler sekmesinde bağlam menüsü unsurları olarak görünen üçüncü taraf bağlantıları (mesela bir blok tarayıcısı). URL'deki %s, işlem hash değeri ile değiştirilecektir. Birden çok bağlantılar düşey çubuklar | ile ayrılacaktır.</translation>
+        <source>use separate socks&amp;5 proxy to reach peers via tor hidden services:</source>
+        <translation>tor gizli servisleri aracılığıyla eşlere ulaşmak için ayrı socks&amp;5 proksi kullanın:</translation>
     </message>
     <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>Yukarıdaki seçeneklerin yerine geçen etkin komut satırı seçenekleri:</translation>
+        <source>hide the icon from the system tray.</source>
+        <translation>simgeyi sistem tepsisinden gizleyin.</translation>
     </message>
     <message>
-        <source>Open the %1 configuration file from the working directory.</source>
-        <translation>Çalışma dizininden %1  yapılandırma dosyasını aç.</translation>
+        <source>&amp;hide tray icon</source>
+        <translation>&amp;simgeyi gizle</translation>
     </message>
     <message>
-        <source>Open Configuration File</source>
-        <translation>Yapılandırma Dosyasını Aç</translation>
+        <source>minimize instead of exit the application when the window is closed. when this option is enabled, the application will be closed only after selecting exit in the menu.</source>
+        <translation>pencere kapatıldığında uygulamadan çıkmak yerine uygulamayı küçültür. bu seçenek etkinleştirildiğinde, uygulama sadece menüden çıkış seçildiğinde kapanacaktır.</translation>
     </message>
     <message>
-        <source>Reset all client options to default.</source>
-        <translation>İstemcinin tüm seçeneklerini varsayılan değerlere geri al.</translation>
+        <source>third party urls (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the url is replaced by transaction hash. multiple urls are separated by vertical bar |.</source>
+        <translation>işlemler sekmesinde bağlam menüsü unsurları olarak görünen üçüncü taraf bağlantıları (mesela bir blok tarayıcısı). url'deki %s, işlem hash değeri ile değiştirilecektir. birden çok bağlantılar düşey çubuklar | ile ayrılacaktır.</translation>
     </message>
     <message>
-        <source>&amp;Reset Options</source>
-        <translation>Seçenekleri &amp;Sıfırla</translation>
+        <source>active command-line options that override above options:</source>
+        <translation>yukarıdaki seçeneklerin yerine geçen etkin komut satırı seçenekleri:</translation>
     </message>
     <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Ağ</translation>
+        <source>open the %1 configuration file from the working directory.</source>
+        <translation>çalışma dizininden %1  yapılandırma dosyasını aç.</translation>
+    </message>
+    <message>
+        <source>open configuration file</source>
+        <translation>yapılandırma dosyasını aç</translation>
+    </message>
+    <message>
+        <source>reset all client options to default.</source>
+        <translation>istemcinin tüm seçeneklerini varsayılan değerlere geri al.</translation>
+    </message>
+    <message>
+        <source>&amp;reset options</source>
+        <translation>seçenekleri &amp;sıfırla</translation>
+    </message>
+    <message>
+        <source>&amp;network</source>
+        <translation>&amp;ağ</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = otomatik, &lt;0 = bu kadar çekirdeği kullanma)</translation>
     </message>
     <message>
-        <source>W&amp;allet</source>
-        <translation>&amp;Cüzdan</translation>
+        <source>w&amp;allet</source>
+        <translation>&amp;cüzdan</translation>
     </message>
     <message>
-        <source>Expert</source>
-        <translation>Gelişmiş</translation>
+        <source>expert</source>
+        <translation>gelişmiş</translation>
     </message>
     <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>Para &amp;kontrolü özelliklerini etkinleştir</translation>
+        <source>enable coin &amp;control features</source>
+        <translation>para &amp;kontrolü özelliklerini etkinleştir</translation>
     </message>
     <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Doğrulanmamış para üstünü harcamayı devre dışı bırakırsanız, bir işlemin para üstü bu işlem için en az bir doğrulama olana dek harcanamaz. Bu, aynı zamanda bakiyenizin nasıl hesaplandığını da etkiler.</translation>
+        <source>if you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. this also affects how your balance is computed.</source>
+        <translation>doğrulanmamış para üstünü harcamayı devre dışı bırakırsanız, bir işlemin para üstü bu işlem için en az bir doğrulama olana dek harcanamaz. bu, aynı zamanda bakiyenizin nasıl hesaplandığını da etkiler.</translation>
     </message>
     <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>Doğrulanmamış para üstünü &amp;harca</translation>
+        <source>&amp;spend unconfirmed change</source>
+        <translation>doğrulanmamış para üstünü &amp;harca</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Litecoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>automatically open the ecurrency client port on the router. this only works when your router supports upnp and it is enabled.</source>
+        <translation>yönlendiricide ecurrency istemci portlarını otomatik olarak açar. bu, sadece yönlendiricinizin upnp desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Portları &amp;UPnP kullanarak haritala</translation>
+        <source>map port using &amp;upnp</source>
+        <translation>portları &amp;upnp kullanarak haritala</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
@@ -1052,8 +1052,8 @@
         <translation>Gelen bağlantılara izin ver</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Litecoin ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>eCurrency ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1088,8 +1088,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Litecoin ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>eCurrency ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1125,7 +1125,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Litecoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>eCurrency gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1195,8 +1195,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak Litecoin ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak eCurrency ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1270,8 +1270,8 @@
         <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Litecoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>eCurrency başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1286,8 +1286,8 @@
         <translation>%1 ödeme adresi geçersizdir</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamıyor! Bunun nedeni geçersiz bir Litecoin adresi veya hatalı biçimlendirilmiş URI değişkenleri olabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamıyor! Bunun nedeni geçersiz bir eCurrency adresi veya hatalı biçimlendirilmiş URI değişkenleri olabilir.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1388,8 +1388,8 @@
         <translation>Tutar</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Bir Litecoin adresi giriniz (mesela %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>Bir eCurrency adresi giriniz (mesela %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1754,7 +1754,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>UYARI: Litecoin dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki litecoinleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
+        <translation>UYARI: eCurrency dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki ecurrencyleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1808,8 +1808,8 @@
         <translation>&amp;İleti:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte Litecoin ağı üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte eCurrency ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1966,7 +1966,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Litecoin yolla</translation>
+        <translation>eCurrency yolla</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2041,8 +2041,8 @@
         <translation>Gizle</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>Gerekli olan en az ücreti ödemek, bloklarda boşluktan daha az işlem hacmi olduğu sürece bir sorun çıkarmaz. Fakat ağın işleyecebileceğinden daha çok litecoin işlemi talebi olduğunda bunun asla doğrulanmayan bir işlem olabileceğinin farkında olmalısınız.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>Gerekli olan en az ücreti ödemek, bloklarda boşluktan daha az işlem hacmi olduğu sürece bir sorun çıkarmaz. Fakat ağın işleyecebileceğinden daha çok ecurrency işlemi talebi olduğunda bunun asla doğrulanmayan bir işlem olabileceğinin farkında olmalısınız.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2146,7 +2146,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Litecoin gönderimini onaylayın</translation>
+        <translation>eCurrency gönderimini onaylayın</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2189,8 +2189,8 @@
         <translation>Sadece asgari ücret olan %1 tutarını öde</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Uyarı: geçersiz Litecoin adresi</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>Uyarı: geçersiz eCurrency adresi</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2232,8 +2232,8 @@
         <translation>Bu, normal bir ödemedir.</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Ödemenin yollanacağı Litecoin adresi</translation>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>Ödemenin yollanacağı eCurrency adresi</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2252,8 +2252,8 @@
         <translation>Bu ögeyi kaldır</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Ücret yollanan tutardan alınacaktır. Alıcı tutar alanına girdiğinizden daha az litecoin alacaktır. Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Ücret yollanan tutardan alınacaktır. Alıcı tutar alanına girdiğinizden daha az ecurrency alacaktır. Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2280,8 +2280,8 @@
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Referans için litecoin: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Litecoin ağı üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
+        <translation>Referans için ecurrency: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj eCurrency ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2325,12 +2325,12 @@
         <translation>İleti &amp;imzala</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Adreslerinize yollanan litecoinleri alabileceğiniz ispatlamak için adreslerinizle iletiler/anlaşmalar imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive ecurrencies sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Adreslerinize yollanan ecurrencyleri alabileceğiniz ispatlamak için adreslerinizle iletiler/anlaşmalar imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>İletinin imzalanmasında kullanılacak Litecoin adresi</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>İletinin imzalanmasında kullanılacak eCurrency adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2361,8 +2361,8 @@
         <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Bu Litecoin adresinin sizin olduğunu ispatlamak için iletiyi imzalayın</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>Bu eCurrency adresinin sizin olduğunu ispatlamak için iletiyi imzalayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2385,12 +2385,12 @@
         <translation>Alıcının adresini, iletiyi (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıya giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya engel olmak için imzadan, imzalı iletinin içeriğini aşan bir anlam çıkarmamaya dikkat ediniz. Bunun sadece imzalayan tarafın adres ile alım yapabildiğini ispatladığını ve herhangi bir işlemin gönderi tarafını kanıtlayamayacağını unutmayınız!</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>İletinin imzalanmasında kullanılan Litecoin adresi</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>İletinin imzalanmasında kullanılan eCurrency adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Belirtilen Litecoin adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>Belirtilen eCurrency adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2603,7 +2603,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan litecoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation>Oluşturulan ecurrency'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2925,7 +2925,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Litecoini Gönder</translation>
+        <translation>eCurrencyi Gönder</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
@@ -3022,8 +3022,8 @@
         <translation>HTTP sunucusu başlatılamadı. Ayrıntılar için debug.log dosyasına bakınız.</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Çekirdeği</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Çekirdeği</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3051,7 +3051,7 @@
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu kararlı sürümden önceki bir deneme sürümüdür. - risklerini bilerek kullanma sorumluluğu sizdedir - litecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu kararlı sürümden önceki bir deneme sürümüdür. - risklerini bilerek kullanma sorumluluğu sizdedir - ecurrency oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3307,7 +3307,7 @@
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>İşlemdeki litecoin tutarı ücreti ödemek için çok düşük</translation>
+        <translation>İşlemdeki ecurrency tutarı ücreti ödemek için çok düşük</translation>
     </message>
     <message>
         <source>This is experimental software.</source>

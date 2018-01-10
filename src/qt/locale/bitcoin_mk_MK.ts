@@ -138,16 +138,16 @@
         <translation>Повторно индексирање на блокови од дискот...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Испрати биткоини на Биткоин адреса</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Испрати ecurrency на eCurrency адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Биткоин</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -299,8 +299,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Биткоин</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -590,8 +590,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Биткоин Core</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>Warning</source>

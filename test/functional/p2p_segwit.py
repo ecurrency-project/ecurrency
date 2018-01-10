@@ -537,7 +537,7 @@ class SegWitTest(BitcoinTestFramework):
             # 'non-mandatory-script-verify-flag (Witness program was passed an
             # empty witness)' (otherwise).
             # TODO: support multiple acceptable reject reasons.
-            # Litecoin: SCRIPT_VERIFY_WITNESS is enforced when segwit is activated
+            # eCurrency: SCRIPT_VERIFY_WITNESS is enforced when segwit is activated
             test_witness_block(self.nodes[0], self.test_node, block, accepted=True, with_witness=False)
 
         connect_nodes(self.nodes[0], 2)
@@ -1032,7 +1032,7 @@ class SegWitTest(BitcoinTestFramework):
         self.nodes[0].submitblock(bytes_to_hex_str(block.serialize(True)))
         assert(self.nodes[0].getbestblockhash() != block.hash)
 
-        # Now redo commitment with the standard nonce, but let bitcoind fill it in.
+        # Now redo commitment with the standard nonce, but let ecurrencyd fill it in.
         add_witness_commitment(block, nonce=0)
         block.vtx[0].wit = CTxWitness()
         block.solve()
