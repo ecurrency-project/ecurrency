@@ -1,5 +1,5 @@
 ---
-name: "ecurrency-linux-0.17"
+name: "ecurrency-linux-0.2"
 enable_cache: true
 suites:
 - "bionic"

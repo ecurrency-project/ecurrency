@@ -1,5 +1,5 @@
 ---
-name: "ecurrency-osx-0.17"
+name: "ecurrency-osx-0.2"
 enable_cache: true
 suites:
 - "bionic"
