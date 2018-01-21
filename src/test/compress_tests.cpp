@@ -19,8 +19,8 @@
 // amounts 1 .. 10000
 #define NUM_MULTIPLES_1BTC 10000
 
-// amounts 50 .. 21000000
-#define NUM_MULTIPLES_50BTC 1680000
+// amounts 50 .. 333333333
+#define NUM_MULTIPLES_50BTC 666666667
 
 BOOST_FIXTURE_TEST_SUITE(compress_tests, BasicTestingSetup)
 
