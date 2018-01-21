@@ -1019,15 +1019,10 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
-    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
-    // Force block reward to zero when right shift is undefined.
-    if (halvings >= 64)
-        return 0;
-
-    CAmount nSubsidy = 50 * COIN;
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
-    nSubsidy >>= halvings;
-    return nSubsidy;
+    if (nHeight == 1)
+        return 333333333 * COIN;
+    else
+	return 0;
 }
 
 bool IsInitialBlockDownload()
@@ -1047,10 +1042,15 @@ bool IsInitialBlockDownload()
         return true;
     if (chainActive.Tip() == nullptr)
         return true;
+    // LogPrintf("nchainWork: %s\n", chainActive.Tip()->nChainWork.GetHex());
     if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork))
+{ LogPrintf("Too less work: %s\n", chainActive.Tip()->nChainWork.GetHex());
         return true;
+}
     if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
+{ LogPrintf("Too old block time: %u, age %u, max %u\n", chainActive.Tip()->GetBlockTime(), GetTime() - chainActive.Tip()->GetBlockTime(), nMaxTipAge);
         return true;
+}
     LogPrintf("Leaving InitialBlockDownload (latching to false)\n");
     latchToFalse.store(true, std::memory_order_relaxed);
     return false;
