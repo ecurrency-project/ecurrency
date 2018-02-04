@@ -1161,10 +1161,7 @@ bool ReadRawBlockFromDisk(std::vector<uint8_t>& block, const CBlockIndex* pindex
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
-    if (nHeight == 1)
-        return 333333333 * COIN;
-    else
-	return 0;
+    return 0;
 }
 
 bool IsInitialBlockDownload()
@@ -1825,11 +1822,12 @@ bool CChainState::ConnectBlock(const CBlock& block, CValidationState& state, CBl
     uint256 hashPrevBlock = pindex->pprev == nullptr ? uint256() : pindex->pprev->GetBlockHash();
     assert(hashPrevBlock == view.GetBestBlock());
 
-    // Special case for the genesis block, skipping connection of its transactions
-    // (its coinbase is unspendable)
+    // Special case for the genesis block
     if (block.GetHash() == chainparams.GetConsensus().hashGenesisBlock) {
         if (!fJustCheck)
             view.SetBestBlock(pindex->GetBlockHash());
+        const CTransaction &tx = *(block.vtx[0]);
+        UpdateCoins(tx, view, pindex->nHeight);
         return true;
     }
 
