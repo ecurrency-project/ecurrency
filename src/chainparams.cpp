@@ -126,11 +126,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xeb734566ea3b1da57bdedb44e63e7e2340a574cc77a32b202eddf7cd3f1fe6f9"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        // vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk", true);
-        // vSeeds.emplace_back("dnsseed.thrasher.io", true);
-        // vSeeds.emplace_back("dnsseed.litecointools.com", true);
-        // vSeeds.emplace_back("dnsseed.litecoinpool.org", true);
-        // vSeeds.emplace_back("dnsseed.koin-project.com", false);
+        vSeeds.emplace_back("ecr1.crypto.yttm.work", true);
+        vSeeds.emplace_back("ecr2.crypto.yttm.work", true);
+        vSeeds.emplace_back("ecr3.crypto.yttm.work", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -234,11 +232,11 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // nodes with support for servicebits filtering should be at the top
-        // vSeeds.emplace_back("testnet-seed.ecurrencytools.com", true);
-        // vSeeds.emplace_back("seed-b.ecurrency.loshan.co.uk", true);
-        // vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
-	//
+        // nodes with support for service bits filtering should be at the top
+        vSeeds.emplace_back("ecr1.crypto.yttm.work", true);
+        vSeeds.emplace_back("ecr2.crypto.yttm.work", true);
+        vSeeds.emplace_back("ecr3.crypto.yttm.work", true);
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
