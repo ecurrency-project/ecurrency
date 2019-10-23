@@ -1,5 +1,9 @@
 stages:
+  - build
   - test
 test:
   stage: test
+  script: /bin/true
+build:
+  stage: build
   script: /bin/true
