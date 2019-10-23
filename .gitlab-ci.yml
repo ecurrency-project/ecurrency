@@ -1,0 +1,5 @@
+stages:
+  - test
+test:
+  stage: test
+  script: /bin/true
