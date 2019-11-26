@@ -3057,7 +3057,7 @@ static UniValue getwalletinfo(const JSONRPCRequest& request)
     if (pwallet->IsCrypted()) {
         obj.pushKV("unlocked_until", pwallet->nRelockTime);
     }
-    obj.pushKV("paytxfee", ValueFromAmount(pwallet->m_pay_tx_fee.GetFeePerK()));
+    obj.pushKV("paytxfee", pwallet->m_pay_tx_fee ? ValueFromAmount(pwallet->m_pay_tx_fee->GetFeePerK()) : 0);
     if (!seed_id.IsNull()) {
         obj.pushKV("hdseedid", seed_id.GetHex());
         obj.pushKV("hdmasterkeyid", seed_id.GetHex());
