@@ -25,7 +25,7 @@ as a new contributor. It also will teach you much more about the code and
 process than opening pull requests. Please refer to the [peer review](#peer-review)
 section below.
 
-Before you start contributing, familiarize yourself with the Litecoin Core build
+Before you start contributing, familiarize yourself with the eCurrency Core build
 system and tests. Refer to the documentation in the repository on how to build
 Bitcoin Core and how to run the unit tests, functional tests, and fuzz tests.
 
