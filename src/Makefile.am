@@ -668,17 +668,17 @@ ecurrency_bin_ldadd = \
 
 ecurrency_bin_ldadd += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS) $(SQLITE_LIBS) $(MWEB_LIBS)
 
-ecurrencyd_SOURCES = $(litecoin_daemon_sources)
-ecurrencyd_CPPFLAGS = $(litecoin_bin_cppflags)
-ecurrencyd_CXXFLAGS = $(litecoin_bin_cxxflags)
-ecurrencyd_LDFLAGS = $(litecoin_bin_ldflags)
-ecurrencyd_LDADD = $(LIBBITCOIN_SERVER) $(litecoin_bin_ldadd)
+ecurrencyd_SOURCES = $(ecurrency_daemon_sources)
+ecurrencyd_CPPFLAGS = $(ecurrency_bin_cppflags)
+ecurrencyd_CXXFLAGS = $(ecurrency_bin_cxxflags)
+ecurrencyd_LDFLAGS = $(ecurrency_bin_ldflags)
+ecurrencyd_LDADD = $(LIBBITCOIN_SERVER) $(ecurrency_bin_ldadd)
 
-ecurrency_node_SOURCES = $(litecoin_daemon_sources)
-ecurrency_node_CPPFLAGS = $(litecoin_bin_cppflags)
-ecurrency_node_CXXFLAGS = $(litecoin_bin_cxxflags)
-ecurrency_node_LDFLAGS = $(litecoin_bin_ldflags)
-ecurrency_node_LDADD = $(LIBBITCOIN_SERVER) $(litecoin_bin_ldadd)
+ecurrency_node_SOURCES = $(ecurrency_daemon_sources)
+ecurrency_node_CPPFLAGS = $(ecurrency_bin_cppflags)
+ecurrency_node_CXXFLAGS = $(ecurrency_bin_cxxflags)
+ecurrency_node_LDFLAGS = $(ecurrency_bin_ldflags)
+ecurrency_node_LDADD = $(LIBBITCOIN_SERVER) $(ecurrency_bin_ldadd)
 
 # bitcoin-cli binary #
 ecurrency_cli_SOURCES = bitcoin-cli.cpp
@@ -722,10 +722,10 @@ ecurrency_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(MWEB_LIBS)
 
 # bitcoin-wallet binary #
 ecurrency_wallet_SOURCES = bitcoin-wallet.cpp
-ecurrency_wallet_CPPFLAGS = $(litecoin_bin_cppflags)
-ecurrency_wallet_CXXFLAGS = $(litecoin_bin_cxxflags)
-ecurrency_wallet_LDFLAGS = $(litecoin_bin_ldflags)
-ecurrency_wallet_LDADD = $(LIBBITCOIN_WALLET_TOOL) $(litecoin_bin_ldadd)
+ecurrency_wallet_CPPFLAGS = $(ecurrency_bin_cppflags)
+ecurrency_wallet_CXXFLAGS = $(ecurrency_bin_cxxflags)
+ecurrency_wallet_LDFLAGS = $(ecurrency_bin_ldflags)
+ecurrency_wallet_LDADD = $(LIBBITCOIN_WALLET_TOOL) $(ecurrency_bin_ldadd)
 
 if TARGET_WINDOWS
 ecurrency_wallet_SOURCES += bitcoin-wallet-res.rc
