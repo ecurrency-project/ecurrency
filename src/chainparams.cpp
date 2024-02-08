@@ -142,8 +142,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
-        bech32_hrp = "ltc";
-        mweb_hrp = "ltcmweb";
+        bech32_hrp = "ecr";
 
         vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_main), std::end(chainparams_seed_main));
 
@@ -159,8 +158,9 @@ public:
                 {  10000, uint256S("0xdf302a2ad72891695942dd102fa26fda46380e7d14802f8212ac6851d1b57639")},
                 { 100000, uint256S("0x34d4b7e0c14e5d4f250d518f64eafc9e92a926e0edfa794987c4f5a886fd83e0")},
                 { 500000, uint256S("0x046b9cb20d9c880c7303e23e93ff0aacd72b48815dcf3a76e96e45603168734d")},
-                { 900000, uint256S("0x62519303124585282b6365d97d09ce018beef7bddb9bf99455b11aca362d32b9")},
-                {1638770, uint256S("0x0dc4c1ae02afbaca50de60899acfff2b3c039ad355cbed9d2a7408fd36f5ae59")},
+                {1000000, uint256S("0xdda656f6cbf535b168ff1953c1bbcfa74e0c8d30f44db60231e3889458cce72f")},
+                {2000000, uint256S("0x51511786637fa6f96574972c1b72f246869766660f0b55568327848232a0ff24")},
+                {3000000, uint256S("0x0dc4c1ae02afbaca50de60899acfff2b3c039ad355cbed9d2a7408fd36f5ae59")},
             }
         };
 
@@ -251,8 +251,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
-        bech32_hrp = "tltc";
-        mweb_hrp = "tmweb";
+        bech32_hrp = "tecr";
 
         vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_test), std::end(chainparams_seed_test));
 
@@ -367,8 +366,10 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        bech32_hrp = "rltc";
-        mweb_hrp = "tmweb";
+        bech32_hrp = "recr";
+
+        /* enable fallback fee on regtest */
+        m_fallback_fee_enabled = true;
     }
 
     /**
