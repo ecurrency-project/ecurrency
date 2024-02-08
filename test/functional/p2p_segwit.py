@@ -559,7 +559,7 @@ class SegWitTest(BitcoinTestFramework):
             # 'non-mandatory-script-verify-flag (Witness program was passed an
             # empty witness)' (otherwise).
             # TODO: support multiple acceptable reject reasons.
-            # Litecoin: BTC applied these rules for all transactions once P2SH is enabled, on LTC we enforce
+            # eCurrency: BTC applied these rules for all transactions once P2SH is enabled, on ECR we enforce
             # these rules only when segwit was activated
             # test_witness_block(self.nodes[0], self.test_node, block, accepted=False, with_witness=False)
 
@@ -1015,7 +1015,7 @@ class SegWitTest(BitcoinTestFramework):
         assert_equal('bad-witness-merkle-match', self.nodes[0].submitblock(block.serialize().hex()))
         assert self.nodes[0].getbestblockhash() != block.hash
 
-        # Now redo commitment with the standard nonce, but let bitcoind fill it in.
+        # Now redo commitment with the standard nonce, but let ecurrencyd fill it in.
         add_witness_commitment(block, nonce=0)
         block.vtx[0].wit = CTxWitness()
         block.solve()

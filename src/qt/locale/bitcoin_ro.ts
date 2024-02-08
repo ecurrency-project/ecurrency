@@ -66,8 +66,12 @@
         <translation>Adresa de primire</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sunt adresele tale Bitcoin pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sunt adresele tale eCurrency pentru trimiterea plății. Verifică mereu suma și adresa de primire înainte de trimiterea monedelor.</translation>
+    </message>
+    <message>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sunt adresele tale eCurrency pentru primirea plăților. Este recomandată folosirea de noi adrese de primire pentru fiecare tranzacție.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,29 +180,8 @@
         <translation>Portofel criptat</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Introduceti o parola noua pentru portofel. &lt;br/&gt;Va rugam sa folositi o parola de &lt;b&gt; zece sau mai multe caractere&lt;/b&gt;, sau &lt;b&gt;mai mult de opt cuvinte&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Introduceţi vechea şi noua parolă pentru portofel.
- </translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Reţineti: criptarea portofelului dvs. nu vă poate proteja în totalitate bitcoin-urile împotriva furtului de malware care vă infectează computerul.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Portofel de criptat</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Portofelul tău urmează să fie criptat.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Protofelul tău este criptat.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 se va inchide pentru a termina procesul de criptare. Aduți aminte că prin criptarea portofelului tău virtual, nu îți poți proteja complet monedele virtuale de a fi furate când te-ai infectat cu un virus de tip malware pe calculatorul tau.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -327,40 +310,8 @@
         <translation>Crează portofel...</translation>
     </message>
     <message>
-        <source>Create a new wallet</source>
-        <translation>Crează un portofel nou</translation>
-    </message>
-    <message>
-        <source>Wallet:</source>
-        <translation>Portofel:</translation>
-    </message>
-    <message>
-        <source>Click to disable network activity.</source>
-        <translation>Click pentru a opri activitatea retelei.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>Activitatea retelei a fost oprita.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Click pentu a porni activitatea retelei.</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Se sincronizeaza Header-ele (%1%)...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Se reindexează blocurile pe disc...</translation>
-    </message>
-    <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy este&lt;b&gt;activat&lt;/b&gt;:%1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Trimite monede către o adresă Bitcoin</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Trimite monedele către o adresă eCurrency</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,7 +323,15 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verifică mesaj...</translation>
+        <translation>&amp;Verifică mesajul...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portofel</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -395,12 +354,12 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Bitcoin pentru a dovedi că vă aparţin</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de eCurrency pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Bitcoin specificată</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de eCurrency specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -415,12 +374,8 @@
         <translation>A&amp;jutor</translation>
     </message>
     <message>
-        <source>Tabs toolbar</source>
-        <translation>Bara de unelte</translation>
-    </message>
-    <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi bitcoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și ecurrency: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -428,7 +383,11 @@
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Arată lista de adrese pentru primire şi etichetele</translation>
+        <translation>Afișează lista adreselor de primire utilizate și etichetele.</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Deschide un ecurrency: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -960,8 +919,8 @@
         <translation>Foloseşte un dosar de date personalizat:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1003,16 +962,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Tranzactiile recente pot sa nu fie inca vizibile, de aceea balanta portofelului poate fi incorecta. Aceasta informatie va fi corecta de indata ce portofelul va fi complet sincronizat cu reteaua Bitcoin, asa cum este detaliat mai jos.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Incercarea de a cheltui bitcoini care sunt afectati de tranzactii ce inca nu sunt afisate nu va fi acceptata de retea.</translation>
-    </message>
-    <message>
-        <source>Number of blocks left</source>
-        <translation>Numarul de blocuri ramase</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>Posibil ca tranzacțiile recente să nu fie vizibile, încă, astfel bilanțul portofelului tău poate fi incorect. Aceste informații vor fi corecte o dată ce portofelul tău a încheiat sincronizarea cu rețeaua ecurrency, conform descrierii de mai jos.</translation>
     </message>
     <message>
         <source>Unknown...</source>
@@ -3107,220 +3058,8 @@ Nota: Cum taxa este calculata per byte, o taxa de "100 satoshi per kB" pentru o 
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distribuit sub licenţa de programe MIT, vezi fişierul însoţitor %s sau %s</translation>
-    </message>
-    <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Reductia e configurata sub minimul de %d MiB. Rugam folositi un numar mai mare.</translation>
-    </message>
-    <message>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Reductie: ultima sincronizare merge dincolo de datele reductiei. Trebuie sa faceti -reindex (sa descarcati din nou intregul blockchain in cazul unui nod redus)</translation>
-    </message>
-    <message>
-        <source>Pruning blockstore...</source>
-        <translation>Reductie blockstore...</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Imposibil de pornit serverul HTTP. Pentru detalii vezi logul de depanare.</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation>Dezvoltatorii %s</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Nu se poate obține o blocare a directorului de date %s. %s probabil rulează deja.</translation>
-    </message>
-    <message>
-        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
-        <translation>Nu se pot furniza conexiuni specifice in acelasi timp in care addrman este folosit pentru a gasi conexiuni de iesire.</translation>
-    </message>
-    <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Eroare la citirea %s! Toate cheile sînt citite corect, dar datele tranzactiei sau anumite intrări din agenda sînt incorecte sau lipsesc.</translation>
-    </message>
-    <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Vă rugăm verificaţi dacă data/timpul calculatorului dvs. sînt corecte! Dacă ceasul calcultorului este gresit, %s nu va funcţiona corect.</translation>
-    </message>
-    <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Va rugam sa contribuiti daca apreciati ca %s va este util. Vizitati %s pentru mai multe informatii despre software.</translation>
-    </message>
-    <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Baza de date a blocurilor contine un bloc ce pare a fi din viitor. Acest lucru poate fi cauzat de setarea incorecta a datei si orei in computerul dvs. Reconstruiti baza de date a blocurilor doar daca sunteti sigur ca data si ora calculatorului dvs sunt corecte.</translation>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Aceasta este o versiune de test preliminară - vă asumaţi riscul folosind-o - nu folosiţi pentru minerit sau aplicaţiile comercianţilor</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>Aceasta este taxa de tranzactie la care puteti renunta daca restul este mai mic decat praful la acest nivel.</translation>
-    </message>
-    <message>
-        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>Imposibil de refacut blocurile. Va trebui sa reconstruiti baza de date folosind -reindex-chainstate.</translation>
-    </message>
-    <message>
-        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Imposibil de a readuce baza de date la statusul pre-fork. Va trebui redescarcat blockchainul.</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Atenţie: Reţeaua nu pare să fie de acord în totalitate! Aparent nişte mineri au probleme.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Atenţie: Aparent, nu sîntem de acord cu toţi partenerii noştri! Va trebui să faceţi o actualizare, sau alte noduri necesită actualizare.</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool trebuie sa fie macar %d MB</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Nu se poate rezolva adresa -%s: '%s'</translation>
-    </message>
-    <message>
-        <source>Change index out of range</source>
-        <translation>Indexul de schimbare este iesit din parametrii</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation>Copyright (C) %i-%i</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation>Bloc defect din baza de date detectat</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>Doriţi să reconstruiţi baza de date blocuri acum?</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation>Eroare la iniţializarea bazei de date de blocuri</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Eroare la iniţializarea mediului de bază de date a portofelului %s!</translation>
-    </message>
-    <message>
-        <source>Error loading %s</source>
-        <translation>Eroare la încărcarea %s</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Private keys can only be disabled during creation</source>
-        <translation>Eroare la incarcarea %s: Cheile private pot fi dezactivate doar in momentul crearii</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>Eroare la încărcarea %s: Portofel corupt</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Eroare la încărcarea %s: Portofelul are nevoie de o versiune %s mai nouă</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation>Eroare la încărcarea bazei de date de blocuri</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation>Eroare la deschiderea bazei de date de blocuri</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nu s-a reuşit ascultarea pe orice port. Folosiţi -listen=0 dacă vreţi asta.</translation>
-    </message>
-    <message>
-        <source>Failed to rescan the wallet during initialization</source>
-        <translation>Rescanarea portofelului in timpul initializarii a esuat.</translation>
-    </message>
-    <message>
-        <source>Importing...</source>
-        <translation>Import...</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Incorect sau nici un bloc de geneza găsit. Directorul de retea greşit?</translation>
-    </message>
-    <message>
-        <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. %s se inchide.</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Sumă nevalidă pentru -%s=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>Sumă nevalidă pentru -discardfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Suma nevalidă pentru -fallbackfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Specified blocks directory "%s" does not exist.</source>
-        <translation>Directorul de blocuri "%s" specificat nu exista.</translation>
-    </message>
-    <message>
-        <source>Upgrading txindex database</source>
-        <translation>Actualizarea bazei de date txindex</translation>
-    </message>
-    <message>
-        <source>Loading P2P addresses...</source>
-        <translation>Încărcare adrese P2P...</translation>
-    </message>
-    <message>
-        <source>Loading banlist...</source>
-        <translation>Încărcare banlist...</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation>Nu sînt destule descriptoare disponibile.</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Reductia nu poate fi configurata cu o valoare negativa.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Modul redus este incompatibil cu -txindex.</translation>
-    </message>
-    <message>
-        <source>Replaying blocks...</source>
-        <translation>Se reiau blocurile...</translation>
-    </message>
-    <message>
-        <source>Rewinding blocks...</source>
-        <translation>Se deruleaza blocurile...</translation>
-    </message>
-    <message>
-        <source>The source code is available from %s.</source>
-        <translation>Codul sursa este disponibil la %s.</translation>
-    </message>
-    <message>
-        <source>Transaction fee and change calculation failed</source>
-        <translation>Calcului taxei de tranzactie si a restului a esuat.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Nu se poate efectua legatura la %s pe acest computer. %s probabil ruleaza deja.</translation>
-    </message>
-    <message>
-        <source>Unable to generate keys</source>
-        <translation>Nu s-au putut genera cheile</translation>
-    </message>
-    <message>
-        <source>Unsupported logging category %s=%s.</source>
-        <translation>Categoria de logging %s=%s nu este suportata.</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>

@@ -66,8 +66,12 @@
         <translation>Adrese primatelja</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Bitcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše eCurrency adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+    </message>
+    <message>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše eCurrency adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -354,12 +358,8 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy je &lt;b&gt;uključen&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošaljite novac na Bitcoin adresu</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Slanje novca na ecurrency adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,6 +372,14 @@
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Potvrdite poruku...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Novčanik</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -394,12 +402,12 @@
         <translation>Šifrirajte privatne ključeve u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s Bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Poruku potpišemo s ecurrency adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Provjerite poruku da je potpisana s navedenom Bitcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom ecurrency adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +426,8 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Zatražite uplatu (stvara QR kod i bitcoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i ecurrency: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,15 +435,19 @@
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Prikažite popis korištenih adresa i oznaka za primanje novca</translation>
+        <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Otvori ecurrency: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n aktivna veza na eCurrency mrežu</numerusform><numerusform>%n aktivnih veza na eCurrency mrežu</numerusform><numerusform>%n aktivnih veza na eCurrency mrežu</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -866,11 +878,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka ovog zapisa u adresaru</translation>
+        <translation>Oznaka ecurrency adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa ovog zapisa u adresaru. Može se mijenjati samo kod adresa za slanje.</translation>
+        <translation>eCurrency adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -889,16 +901,8 @@
         <translation>Uredi adresu za slanje</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana Bitcoin adresa.</translation>
-    </message>
-    <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>Adresa "%1" već postoji kao primateljska adresa s oznakom "%2" te se ne može dodati kao pošiljateljska adresa.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>Unesena adresa "%1" postoji već u imeniku pod oznakom "%2".</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>Upisana adresa "%1" nije valjana ecurrency adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -954,64 +958,8 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>Dobrodošli u %1.</translation>
-    </message>
-    <message>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Kako je ovo prvi put da je ova aplikacija pokrenuta, možete izabrati gdje će %1 spremati svoje podatke.</translation>
-    </message>
-    <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>Kada kliknete OK, %1 počet će preuzimati i procesirati cijeli lanac blokova (%2GB) počevši s najranijim transakcijama u %3 kad je %4 prvi put pokrenut.</translation>
-    </message>
-    <message>
-        <source>Reverting this setting requires re-downloading the entire blockchain. It is faster to download the full chain first and prune it later. Disables some advanced features.</source>
-        <translation>Vraćanje na ovu postavku zahtijeva ponovno preuzimanje cijelog lanca blokova. Brže je najprije preuzeti cijeli lanac pa ga kasnije obrezati. Isključuje napredne mogućnosti.</translation>
-    </message>
-    <message>
-        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>Početna sinkronizacija je vrlo zahtjevna i može otkriti hardverske probleme kod vašeg računala koji su prije prošli nezamijećeno. Svaki put kad pokrenete %1, nastavit će preuzimati odakle je stao.</translation>
-    </message>
-    <message>
-        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>Ako odlučite ograničiti spremanje lanca blokova pomoću pruninga (obrezivanja), treba preuzeti i procesirati povijesne podatke. Bit će obrisani naknadno kako bi se smanjila količina zauzetog prostora na disku.</translation>
-    </message>
-    <message>
-        <source>Use the default data directory</source>
-        <translation>Koristite uobičajenu podatkovnu mapu</translation>
-    </message>
-    <message>
-        <source>Use a custom data directory:</source>
-        <translation>Odaberite različitu podatkovnu mapu:</translation>
-    </message>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Odbacite blokove nakon provjere osim one najnovije do %1 GB-a (obrezujte)</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Bit će spremljeno barem %1 GB podataka u ovoj mapi te će se povećati tijekom vremena.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Otprilike %1 GB podataka bit će spremljeno u ovoj mapi.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 preuzet će i pohraniti kopiju Bitcoinovog lanca blokova.</translation>
-    </message>
-    <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>Novčanik bit će pohranjen u ovoj mapi.</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Greška: Zadana podatkovna mapa "%1" ne može biti stvorena.</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1234,8 +1182,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port eCurrency klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1319,19 +1267,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio bitcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
-    </message>
-    <message>
-        <source>Whether to show coin control features or not.</source>
-        <translation>Ovisi želite li prikazati mogućnosti kontroliranja inputa ili ne.</translation>
-    </message>
-    <message>
-        <source>&amp;Third party transaction URLs</source>
-        <translation>&amp;URL-ovi treće stranke o transakciji</translation>
-    </message>
-    <message>
-        <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
-        <translation>Opcije postavljene u ovom dijalogu nadglašene su naredbenom linijom ili konfiguracijskom datotekom:</translation>
+        <translation>Izaberite željeni najmanji dio ecurrencya koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1393,40 +1329,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
-    </message>
-    <message>
-        <source>Watch-only:</source>
-        <translation>Isključivno promatrane adrese:</translation>
-    </message>
-    <message>
-        <source>Available:</source>
-        <translation>Dostupno:</translation>
-    </message>
-    <message>
-        <source>Your current spendable balance</source>
-        <translation>Trenutno stanje koje možete trošiti</translation>
-    </message>
-    <message>
-        <source>Pending:</source>
-        <translation>Neriješeno:</translation>
-    </message>
-    <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Ukupan iznos transakcija koje se još moraju potvrditi te se ne računa kao stanje koje se može trošiti</translation>
-    </message>
-    <message>
-        <source>Immature:</source>
-        <translation>Nezrelo:</translation>
-    </message>
-    <message>
-        <source>Mined balance that has not yet matured</source>
-        <translation>Izrudareno stanje koje još nije dozrijevalo</translation>
-    </message>
-    <message>
-        <source>Balances</source>
-        <translation>Stanja</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s eCurrency mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -3294,8 +3198,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distribuirano pod MIT licencom softvera. Vidite pripadajuću datoteku %s ili %s.</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>

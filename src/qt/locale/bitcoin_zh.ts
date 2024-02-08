@@ -1263,8 +1263,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>支付的总额必须大于0。</translation>
     </message>
     <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>总额超过你的余额。</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>警告：莱特币地址无效</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>

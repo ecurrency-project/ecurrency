@@ -66,14 +66,12 @@
         <translation>Адреси отримання</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваші адреси Bitcoin для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші адреси eCurrency для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Це ваші Біткойн адреси для отримання платежів. Використовуйте кнопку "Створити нову адресу для отримання" на вкладці отримання, щоб створити нові адреси.
-Підпис можливий лише з адресами типу "legacy".</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Це ваші адреси eCurrency для отримання платежів. Для кожної транзакції рекомендується використовувати нову адресу одержувача.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -170,8 +168,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Підтвердіть шифрування гаманця</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Увага: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -182,28 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Гаманець зашифровано</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Введіть новий пароль для гаманця.&lt;br/&gt; Будь ласка, використовуйте пароль з &lt;b&gt;десяти або більше випадкових символів&lt;/b&gt;, або &lt;b&gt; вісім або більше слів&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Введіть стару та нову парольну фразу для гаманця.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Пам’ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від кражі, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Гаманець який потрібно зашифрувати</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Ваш гаманець буде зашифровано.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Ваш гаманець зашифровано.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 буде закрито зараз, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші ecurrencyи від крадіжки шкідливими програмами, у випадку якщо ваш комп'ютер буде інфіковано.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -364,7 +342,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Проксі &lt;b&gt;увімкнено&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a eCurrency address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
@@ -378,6 +356,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Verify message...</source>
         <translation>П&amp;еревірити повідомлення...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -400,12 +386,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Зашифрувати закриті ключі, що знаходяться у вашому гаманці</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Bitcoin-адресою</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою eCurrency-адресою </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною eCurrency-адресою</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,8 +410,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Панель дій</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Створити запит платежу (генерує QR-код та bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Створити запит платежу (генерує QR-код та ecurrency: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -436,12 +422,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Показати список адрес і міток, що були використані для отримання</translation>
     </message>
     <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Відкрити ecurrency: URI чи запит платежу</translation>
+    </message>
+    <message>
         <source>&amp;Command-line options</source>
         <translation>П&amp;араметри командного рядка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n активне з'єднання з мережею Bitcoin</numerusform><numerusform>%n активні з'єднання з мережею Bitcoin</numerusform><numerusform>%n активних з'єднань з мережею Bitcoin</numerusform><numerusform>%n активних з'єднань з мережею Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n активне з'єднання з мережею eCurrency</numerusform><numerusform>%n активні з'єднання з мережею eCurrency</numerusform><numerusform>%n активних з'єднань з мережею eCurrency</numerusform><numerusform>%n активних з'єднань з мережею eCurrency</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -484,67 +474,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Синхронізовано</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>&amp;Load PSBT from file...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>Load Partially Signed Bitcoin Transaction</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>Load PSBT from clipboard...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>Load Partially Signed Bitcoin Transaction from clipboard</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>Вікно вузлів</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>Відкрити консоль відлагоджування та діагностики</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;Адреси для відправлення</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;Адреси для отримання</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>Відкрити біткоін URI</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>Відкрити гаманець</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>Відкрийте гаманець</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>закрити Гаманець ...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Закрити гаманець</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>Закрити Всі Гаманці...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>Закрити всі гаманці</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
         <translation>Показати довідку %1 для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message>
@@ -664,12 +594,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&lt;b&gt;Зашифрований&lt;/b&gt; гаманець &lt;b&gt;заблоковано&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>Первісне повідомлення:</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
-        <translation>Сталася фатальна помилка. %1 більше не може продовжувати безпечно і завершить роботу.</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>Сталася фатальна помилка. Гаманець буде закрито.</translation>
     </message>
 </context>
 <context>
@@ -924,8 +850,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Редагувати адресу для відправлення</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Введена адреса "%1" не є дійсною Bitcoin адресою.</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>Введена адреса "%1" не є адресою в мережі eCurrency.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1021,12 +947,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Використовувати свій каталог даних:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Відкинути блоки після перевірки, за винятком останніх %1 ГБ (прунінг)</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1037,8 +959,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Близько %1 ГБ даних буде збережено в цьому каталозі.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 буде завантажувати та зберігати копію блокчейна.</translation>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
+        <translation>%1 буде завантажувати та зберігати копію ланцюжка блоків біткінів.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1072,12 +994,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Нещодавні транзакції ще не відображаються, тому баланс вашого гаманця може бути неточним. Ця інформація буде вірною після того, як ваш гаманець завершить синхронізацію з мережею біткойн, враховуйте показники нижче.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>Нещодавні транзакції ще не відображаються, тому баланс вашого гаманця може бути неточним. Ця інформація буде вірною після того, як ваш гаманець завершить синхронізацію з мережею ecurrency, врахровуйте показники нижче.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Спроба відправити біткоїни, які ще не відображаються, не буде прийнята мережею.</translation>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Спроба видправити ecurrencyи, які ще не відображаються, не буде прийнята мережею.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1269,7 +1191,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Витрачати непідтверджену решту</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
     </message>
     <message>
@@ -1285,8 +1207,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Дозволити вхідні з'єднання</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Підключення до мережі Bitcoin через SOCKS5 проксі.</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>Підключення до мережі eCurrency через SOCKS5 проксі.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1319,6 +1241,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Підключатися до мережі eCurrency через окремий SOCKS5 проксі для прихованих сервісів Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1436,8 +1362,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Bitcoin після встановлення підключення, але цей процес ще не завершено.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею eCurrency після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1638,16 +1564,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Помилка запиту платежу</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Не вдається запустити біткойн: обробник клацни-плати</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>Не вдається запустити ecurrency: обробник клацни-плати</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Обробка URI</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://' не вірний URI. Використовуйте 'bitcoin:'.</translation>
+        <source>'ecurrency://' is not a valid URI. Use 'ecurrency:' instead.</source>
+        <translation>'ecurrency://' не вірний URI. Використовуйте 'ecurrency:'.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.</source>
@@ -1666,8 +1592,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Помилка в адресі платежу %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Біткойн-адреса або неправильні параметри URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Причиною цього може бути некоректна eCurrency-адреса або неправильні параметри URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1708,8 +1634,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Кількість</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Введіть адресу Bitcoin (наприклад %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>Введіть адресу eCurrency (наприклад %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2169,8 +2095,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Повідомлення:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу eCurrency.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2422,6 +2348,14 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Приховати</translation>
     </message>
     <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>Оплата тільки мінімальної комісії є прийнятною, допоки обсяг транзакцій є меншим простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на eCurrency транзакції стане більшим, ніж мережа зможе обробити.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(читати підказки)</translation>
+    </message>
+    <message>
         <source>Recommended:</source>
         <translation>Рекомендовано:</translation>
     </message>
@@ -2650,8 +2584,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>Очікуваний початок підтвердження через %n блок.</numerusform><numerusform>Очікуваний початок підтвердження протягом %n блоків.</numerusform><numerusform>Очікуваний початок підтвердження протягом %n блоків.</numerusform><numerusform>Очікуваний початок підтвердження протягом %n блоків.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Увага: Неприпустима Біткойн-адреса.</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>Увага: Неприпустима eCurrency-адреса.</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2689,8 +2623,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Обрати ранiш використовувану адресу</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Адреса Bitcoin для відправлення платежу</translation>
+        <source>This is a normal payment.</source>
+        <translation>Це звичайний платіж.</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>Адреса eCurrency для відправлення платежу</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2709,11 +2647,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Видалити цей запис</translation>
     </message>
     <message>
-        <source>The amount to send in the selected unit</source>
-        <translation>Сума у вибраній одиниці, яку потрібно надіслати</translation>
-    </message>
-    <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Комісію буде знято зі вказаної суми. До отримувача надійде менше біткоінів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
     </message>
     <message>
@@ -2741,8 +2675,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Повідомлення, що було додане до bitcoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Bitcoin.</translation>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
+        <translation>Повідомлення, що було додане до ecurrency:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу eCurrency.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2775,12 +2709,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>&amp;Підписати повідомлення</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive ecurrencies sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання біткоінів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Адреса Bitcoin для підпису цього повідомлення</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>Адреса eCurrency для підпису цього повідомлення</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2811,7 +2745,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this eCurrency address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2835,20 +2769,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Введіть нижче адресу отримувача, повідомлення (впевніться, що ви точно скопіювали символи завершення рядка, табуляцію, пробіли тощо) та підпис для перевірки повідомлення. Впевніться, що в підпис не було додано зайвих символів: це допоможе уникнути атак типу «людина посередині». Зауважте, що це лише засвідчує можливість отримання транзакцій підписувачем, але не в стані підтвердити джерело жодної транзакції!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Адреса Bitcoin, якою було підписано це повідомлення</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>Адреса eCurrency, якою було підписано це повідомлення</translation>
     </message>
     <message>
-        <source>The signed message to verify</source>
-        <translation>Підписане повідомлення для підтвердження</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>Підпис наданий при підписанні цього повідомлення</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною eCurrency-адресою</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3556,6 +3482,10 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
         <translation>Неможливо запустити HTTP-сервер. Детальніший опис наведено в журналі зневадження.</translation>
+    </message>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

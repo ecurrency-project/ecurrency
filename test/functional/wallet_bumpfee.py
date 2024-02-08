@@ -57,6 +57,7 @@ class BumpFeeTest(BitcoinTestFramework):
         self.sync_all()
 
     def run_test(self):
+        raise SkipTest("eCurrency doesn't support RBF.")
 
         # Encrypt wallet for test_locked_wallet_fails test
         self.nodes[1].encryptwallet(WALLET_PASSPHRASE)

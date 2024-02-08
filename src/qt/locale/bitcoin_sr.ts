@@ -66,14 +66,12 @@
         <translation>Адресе за примање</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ово су твоје Биткоин адресе за слање уплата. Увек добро провери износ и адресу на коју шаљеш пре него што пошаљеш уплату.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ово су ваше eCurrency адресе за слање уплата. Увек добро проверите износ и адресу на коју шаљете пре него што пошаљете уплату.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Ово су твоје Биткоин адресе за приманје уплата. Користи дугме „Направи нову адресу за примање” у картици за примање за креирање нових адреса.
-Потписивање је могуће само за адресе типа 'legacy'.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ово су ваше eCurrency адресе за примање уплате. Препоручује се да се за сваку трансакцију користи нова адреса.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -182,28 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Новчаник шифриран</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Унеси нову лозинку за новчаник&lt;br/&gt;Молимо користи лозинку од десет или више насумичних карактера&lt;b&gt;,или&lt;b&gt;осам или више речи&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Унеси стару лозинку и нову лозинку новчаника.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Упамти, шифрирање новчаника не може у потуности заштити твоје биткоине од крађе од стране малвера инфицира твој рачунар.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Новчаник за шифрирање</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Твој новчаник биће шифриран.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Твој новчаник сада је шифриран.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 ће се сада затворити како би се завршио процес шифрирања.  Запамтите да шифрирањем свог новчаника не можете у потпуности заштити своје ecurrency од крађе од стране злоћудних програма и компјутерских инфекција.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -364,8 +342,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Прокси је &lt;b&gt;омогућен&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Пошаљи новац на Биткоин адресу</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Пошаљите новац на eCurrency адресу</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,6 +356,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Верификовање поруке...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Новчаник</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -400,12 +386,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Шифрирај приватни клуљ који припада новчанику.</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Потписуј поруку са своје Биткоин адресе као доказ да си њихов власник</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Потписуј поруку са своје eCurrency адресе као доказ да си њихов власник</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Верификуј поруке и утврди да ли су потписане од стране спецификованих Биткоин адреса</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Верификуј поруке и утврди да ли су потписане од стране спецификованих eCurrency адреса</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,8 +410,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Трака са картицама</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Затражи плаћање (генерише QR кодове и биткоин: URI-е)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Затражи плаћање (генерише QR кодове и ecurrency: URI-е)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -436,12 +422,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Прегледајте листу коришћених адреса и етикета за пријем уплата</translation>
     </message>
     <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Отворите ecurrency: URI или захтев за плаћање</translation>
+    </message>
+    <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Опције командне линије</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aктивна веза са Биткоин мрежом</numerusform><numerusform>%n aктивних веза са Биткоин мрежом</numerusform><numerusform>%n aктивних веза са Биткоин мрежом</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n aктивна веза са eCurrency мрежом</numerusform><numerusform>%n aктивних веза са eCurrency мрежом</numerusform><numerusform>%n aктивних веза са eCurrency мрежом</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -484,48 +474,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ажурирано</translation>
     </message>
     <message>
-        <source>Node window</source>
-        <translation>Ноде прозор</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>Отвори конзолу за ноде дебуг и дијагностику</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;Адресе за слање</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;Адресе за примање</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>Отвори биткоин: URI</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>Отвори новчаник</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>Отвори новчаник</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>Затвори новчаник...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Затвори новчаник</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>Затвори све новчанике</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Прикажи  поруку помоћи %1 за листу са могућим опцијама Биткоин командне линије</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>Прикажи  поруку помоћи %1 за листу са могућим опцијама eCurrency командне линије</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -635,7 +585,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
-    </context>
+    <message>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>Дошло је до критичне грешке. eCurrency не може безбедно да настави са радом и искључиће се.</translation>
+    </message>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -973,8 +927,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Користите прилагођени директоријум података:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Биткоин</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>

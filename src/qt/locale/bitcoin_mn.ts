@@ -234,6 +234,18 @@
         <translation>Түрүйвчийг цоожлох нууц үгийг солих</translation>
     </message>
     <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Түрүйвч</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Харуул / Нуу</translation>
     </message>
@@ -379,8 +391,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Биткойн</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>

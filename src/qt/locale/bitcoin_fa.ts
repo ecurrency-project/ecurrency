@@ -66,14 +66,12 @@
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>اینها آدرس‌های شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>این‌ها آدرس‌های بیتکوین برای پرداخت‌ها هستند. همیشه قبل از فرستادن سکه‌ها مقدار و آدرس دریافت‌کننده را بررسی نمایید.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>نشانی رسید پرداختهای بیت کوین شما اینها(اینجا) هستند.                                 دکمه رسید ادرس جدید را بزنید تا اد س جدبد را دریافت کنید 
-امضا فقط با ادرسهای ثابت (ماندگار) امکان پذیر میباشد.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>این‌ها آدرس‌های بیتکوین شما برای دریافت مبالغ می‌باشد. توصیه می‌شود برای هر تراکنش از یک آدرس جدید استفاده کنید.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -361,12 +359,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>فهرست‌بندی نمایه بلاک‌ها…</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>پراکسی &lt;br&gt;فعال شده است: %1&lt;/br&gt;</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>ارسال کوین به آدرس بیت کوین</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>ارسال وجه به نشانی eCurrency</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,7 +372,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>تایید پیام</translation>
+        <translation>با&amp;زبینی پیام...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>کیف پول</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -401,12 +403,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>رمزنگاری کلیدهای شخصی متعلق به کیف‌پول</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>پیام‌ها را با آدرس بیت‌کوین خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی eCurrency خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس بیت‌کوین مطمئن شوید</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی eCurrency مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -425,8 +427,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>نوار ابزار</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>درخواست پرداخت (ساخت کد QR و بیت‌کوین: URIs)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس ecurrency)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -434,19 +436,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>نمایش لیست آدرس‌ها و لیبل‌های دریافتی استفاده شده</translation>
+        <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>بازکردن یک ecurrency: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه های خط فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ارتباط فعال به شبکه بیت‌کوین</numerusform><numerusform>%n ارتباط فعال به شبکه بیت‌کوین</numerusform></translation>
-    </message>
-    <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>فهرست‌بندی نمایه بلاک‌ها…</translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ eCurrency</numerusform><numerusform>%n ارتباط فعال با شبکهٔ eCurrency</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -921,16 +923,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>ویرایش آدرس ارسالی</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>آدرس وارد شده "%1" آدرس معتبر بیت کوین نیست.</translation>
-    </message>
-    <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>آدرس وارد شده "%1" در حال حاظر در دفترچه آدرس ها موجود است با برچسب "%2" .</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر eCurrency نیست.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1018,32 +1012,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>استفاده کردن از پوشه داده مخصوص:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>بیت کوین</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Discard blocks after verification, except most recent %1 GB (prune)</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>حداقل %1 گیگابایت اطلاعات در این شاخه ذخیره خواهد شد، که به مرور زمان افزایش خواهد یافت.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>تقریبا %1 گیگابایت داده در این شاخه ذخیره خواهد شد.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 will download and store a copy of the Bitcoin block chain.</translation>
-    </message>
-    <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>کیف پول هم در همین دایرکتوری ذخیره می‌شود.</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>خطا: نمی‌توان پوشه‌ای برای داده‌ها در «%1» ایجاد کرد.</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1255,20 +1225,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>حرفه‌ای</translation>
     </message>
     <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>فعال کردن قابلیت سکه و کنترل</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Spend unconfirmed change</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ بیت‌کوین روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ eCurrency روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1434,12 +1392,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه bitcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
-    </message>
-    <message>
-        <source>Watch-only:</source>
-        <translation>فقط قابل-مشاهده:</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ eCurrency همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1706,8 +1660,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>میزان</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>آدرس بیت کوین را وارد کنید (به طور مثال %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>یک آدرس eCurrency وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2687,8 +2641,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>انتخاب آدرس قبلا استفاده شده</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>آدرس بیت کوین برای ارسال پرداحت به آن</translation>
+        <source>This is a normal payment.</source>
+        <translation>این یک پرداخت عادی است</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>نشانی eCurrency برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2773,12 +2731,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>&amp;ثبت پیام</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>نشانی بیت‌کوین برای امضاء پیغام با آن</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>نشانی eCurrency برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2809,8 +2763,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>پیام را امضا کنید تا ثابت کنید این آدرس بیت‌کوین متعلق به شماست</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2829,24 +2783,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>تایید پیام</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>نشانی eCurrency که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>نشانی بیت‌کوین که پیغام با آن امضاء شده</translation>
-    </message>
-    <message>
-        <source>The signed message to verify</source>
-        <translation>The signed message to verify</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>The signature given when the message was signed</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>پیام را تایید کنید تا مطمئن شوید که توسط آدرس بیت‌کوین مشخص شده امضا شده است.</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی eCurrency مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3539,108 +3481,8 @@ Go to File &gt; Open Wallet to load a wallet.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distributed under the MIT software license, see the accompanying file %s or %s</translation>
-    </message>
-    <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Prune configured below the minimum of %d MiB.  Please use a higher number.</translation>
-    </message>
-    <message>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</translation>
-    </message>
-    <message>
-        <source>Pruning blockstore...</source>
-        <translation>Pruning blockstore...</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Unable to start HTTP server. See debug log for details.</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation>%s توسعه دهندگان</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. %s is probably already running.</translation>
-    </message>
-    <message>
-        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
-        <translation>Cannot provide specific connections and have addrman find outgoing connections at the same.</translation>
-    </message>
-    <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
-    </message>
-    <message>
-        <source>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</source>
-        <translation>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</translation>
-    </message>
-    <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</translation>
-    </message>
-    <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Please contribute if you find %s useful. Visit %s for further information about the software.</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Failed to prepare the statement to fetch sqlite wallet schema version: %s</source>
-        <translation>SQLiteDatabase: Failed to prepare the statement to fetch sqlite wallet schema version: %s</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Failed to prepare the statement to fetch the application id: %s</source>
-        <translation>SQLiteDatabase: Failed to prepare the statement to fetch the application id: %s</translation>
-    </message>
-    <message>
-        <source>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</source>
-        <translation>SQLiteDatabase: Unknown sqlite wallet schema version %d. Only version %d is supported</translation>
-    </message>
-    <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</translation>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>این یک نسخه ی آزمایشی است - با مسئولیت خودتان از آن استفاده کنید -  آن را در معدن و بازرگانی بکار نگیرید.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>This is the transaction fee you may discard if change is smaller than dust at this level</translation>
-    </message>
-    <message>
-        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</translation>
-    </message>
-    <message>
-        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool must be at least %d MB</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Cannot resolve -%s address: '%s'</translation>
-    </message>
-    <message>
-        <source>Change index out of range</source>
-        <translation>تغییر دادن اندیس خارج از دامنه</translation>
-    </message>
-    <message>
-        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
-        <translation>Config setting for %s only applied on %s network when in [%s] section.</translation>
+        <source>eCurrency Core</source>
+        <translation> هسته eCurrency </translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>

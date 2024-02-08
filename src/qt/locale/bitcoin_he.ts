@@ -66,14 +66,12 @@
         <translation>כתובות לקבלה</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלה כתובות הביטקוין שלך לשליחת תשלומים. חשוב לבדוק את הסכום ואת הכתובת המקבלת לפני שליחת מטבעות.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את הסכום ואת הכתובת המקבלת לפני שליחת מטבעות.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>אלה כתובת הביטקוין שלך לקבלת תשלומים. ניתן להשתמש בכפתור „יצירת כתובת קבלה חדשה” בלשונית הקבלה ליצירת כתובות חדשות.
-חתימה אפשרית רק עבור כתובות מסוג „legacy”.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>אלו הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -170,8 +168,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>אישור הצפנת הארנק</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>אזהרה: הצפנת הארנק שלך ושיכחת הסיסמה &lt;b&gt;תגרום לאיבוד כל הביטקוינים שלך&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>אזהרה: איבוד מילת הצופן לאחר הצפנת הארנק עשויה לגרום לכך &lt;b&gt;שכל הביטקוינים שלך יאבדו&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -182,28 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>הארנק מוצפן</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>נא לתת סיסמה חדשה לארנק.&lt;br/&gt;נא להשתמש בסיסמה הכוללת &lt;b&gt;עשרה תווים אקראיים ומעלה&lt;/b&gt;, או ש&lt;b&gt;מונה מילים ומעלה&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>נא לספק את הסיסמה הישנה ולתת סיסמה חדשה לארנק.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>זכור שהצפנת הארנק לא יכולה להגן עליך לגמרי מגניבת המטבעות שלך על ידי תוכנה זדונית שנמצאת על המחשב שלך.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>הארנק המיועד להצפנה</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>הארנק שלך עומד להיות מוצפן.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>הארנק שלך מוצפן כעת.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 ייסגר כעת כדי לסיים את תהליך ההצפנה. נא לשים לב כי הצפנת הארנק שלך לא יכול להגן על הביטקוינים שלך מפני גניבה או נוזקה שתוקפת את מחשבך.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -364,8 +342,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>שרת הפרוקסי &lt;b&gt;פעיל&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>שליחת מטבעות לכתובת ביטקוין</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>שליחת מטבעות לכתובת ללייטקוין</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,6 +356,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;אימות הודעה…</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>ללייטקוין</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>ארנק</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -400,12 +386,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>חתום על הודעות עם כתובות הביטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ביטקוין מסוימות</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ללייטקוין מסוימות</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,8 +410,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :bitcoin)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :ecurrency)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -436,12 +422,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
     </message>
     <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>פתיחת ללייטקוין: כתובת משאב או בקשת תשלום</translation>
+    </message>
+    <message>
         <source>&amp;Command-line options</source>
         <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>חיבור אחד פעיל לרשת ביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ביטקוין</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>חיבור אחד פעיל לרשת ללייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ללייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ללייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ללייטקוין</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -484,101 +474,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>עדכני</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>&amp;העלה PSBT מקובץ...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>העלה עיסקת ביטקוין חתומה חלקית</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>טעינת PSBT מלוח הגזירים...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>טעינת עסקת ביטקוין חתומה חלקית מלוח הגזירים</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>חלון צומת</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>פתיחת ניפוי באגים בצומת וגם מסוף בקרה לאבחון</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;כתובות למשלוח</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;כתובות לקבלה</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>פתיחת ביטקוין: כתובת משאב</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>פתיחת ארנק</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>פתיחת ארנק</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>סגירת ארנק...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>סגירת ארנק</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>סגירת כל הארנקים...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>סגירת כל הארנקים</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>יש להציג את הודעת העזרה של %1 כדי להציג רשימה עם אפשרויות שורת פקודה לביטקוין</translation>
-    </message>
-    <message>
-        <source>&amp;Mask values</source>
-        <translation>&amp;הסוואת ערכים</translation>
-    </message>
-    <message>
-        <source>Mask the values in the Overview tab</source>
-        <translation>הסווה את הערכים בלשונית התיאור הכללי
-</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>ארנק בררת מחדל</translation>
-    </message>
-    <message>
-        <source>No wallets available</source>
-        <translation>אין ארנקים זמינים</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;חלון</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>מזעור</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>הגדלה</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>חלון עיקרי</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>יש להציג את הודעת העזרה של %1 כדי להציג רשימה עם אפשרויות שורת פקודה לללייטקוין</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -661,12 +558,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>הודעה מקורית:</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
-        <translation>אירעה שגיאה חמורה, %1 לא יכול להמשיך בבטחון ולכן יופסק.</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>אירעה שגיאה חמורה. אין אפשרות להשתמש עוד בללייטקוין באופן מאובטח והיישום ייסגר.</translation>
     </message>
 </context>
 <context>
@@ -917,8 +810,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>עריכת כתובת השליחה</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>הכתובת שסיפקת "%1" אינה כתובת ביטקוין תקנית.</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>הכתובת שהוקלדה „%1” היא אינה כתובת ללייטקוין תקנית.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1014,12 +907,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>שימוש בתיקיית נתונים מותאמת אישית:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>ביטקוין</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>התעלם בלוקים לאחר ווריפיקציה, למעט %1 GB המאוחרים ביותר (המקוצצים)</translation>
+        <source>eCurrency</source>
+        <translation>ללייטקוין</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1030,8 +919,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>מידע בנפח של כ-%1 ג׳יגה-בייט יאוחסן בתיקייה זו.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 תוריד ותאחסן עותק של שרשרת הבלוקים של ביטקוין.</translation>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
+        <translation>%1 תוריד ותאחסן עותק של שרשרת הבלוקים של ללייטקוין.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1061,11 +950,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>טופס</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>ייתכן שהעברות שבוצעו לאחרונה לא יופיעו עדיין, ולכן המאזן בארנק שלך יהיה שגוי. המידע הנכון יוצג במלואו כאשר הארנק שלך יסיים להסתנכרן עם רשת הביטקוין, כמפורט למטה.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>ייתכן שהעברות שבוצעו לאחרונה לא יופיעו עדיין, ולכן המאזן בארנק שלך יהיה שגוי. המידע הנכון יוצג במלואו כאשר הארנק שלך יסיים להסתנכרן עם רשת הללייטקוין, כמפורט למטה.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>הרשת תסרב לקבל הוצאת ביטקוינים במידה והם כבר נמצאים בהעברות אשר לא מוצגות עדיין.</translation>
     </message>
     <message>
@@ -1258,8 +1147,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>פתיחת הפתחה של ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>פתיחת הפתחה של ללייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1274,8 +1163,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>לאפשר חיבורים &amp;נכנסים</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>התחבר לרשת הביטקוין דרך פרוקסי SOCKS5.</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>התחבר לרשת לייטקוין דרך פרוקסי SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1308,6 +1197,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>התחברות לרשת ללייטקוין דרך מתווך SOCKS5 נפרד לשירותי Tor נסתרים.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1425,8 +1318,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>טופס</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הביטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הללייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1627,16 +1520,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>שגיאת בקשת תשלום</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>לא ניתן להפעיל את המקשר bitcoin: click-to-pay</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>לא ניתן להפעיל את המקשר ecurrency: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>טיפול בכתובות</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'//:bitcoin' אינה כתובת תקנית. נא להשתמש ב־"bitcoin:‎"‏ במקום.</translation>
+        <source>'ecurrency://' is not a valid URI. Use 'ecurrency:' instead.</source>
+        <translation>'//:ecurrency' אינה כתובת URI תקינה. השתמשו במקום ב ':ecurrency'.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.</source>
@@ -1655,8 +1548,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>כתובת תשלום שגויה %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת ביטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת ללייטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1697,8 +1590,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>סכום</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>נא לספק כתובת ביטקוין (למשל: %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>נא להזין כתובת ללייטקוין (למשל: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2158,8 +2051,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>הו&amp;דעה:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ביטקוין.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ללייטקוין.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2408,7 +2301,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Hide</source>
-        <translation>הסתרה</translation>
+        <translation>הסתר</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>זה בסדר לשלם את העמלה המינימלית כל עוד נפח הטרנזקציות קטן מנפח הבלוקים. אבל יש להיזהר כיוון שבמידה והעומס ברשת גדל, העיסקה עלולה לא להיות מאושרת לעולם.</translation>
     </message>
     <message>
         <source>Recommended:</source>
@@ -2639,7 +2536,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>Estimated to begin confirmation within %n block.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid eCurrency address</source>
         <translation>אזהרה: כתובת ביטקיון שגויה</translation>
     </message>
     <message>
@@ -2678,8 +2575,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>בחירת כתובת שהייתה בשימוש</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>כתובת הביטקוין של המוטב</translation>
+        <source>This is a normal payment.</source>
+        <translation>זהו תשלום רגיל.</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>כתובת לייטקוין של המוטב</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2698,12 +2599,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>הסרת רשומה זו</translation>
     </message>
     <message>
-        <source>The amount to send in the selected unit</source>
-        <translation>הסכום לשליחה במטבע הנבחר</translation>
-    </message>
-    <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>העמלה תנוכה מהסכום שנשלח. הנמען יקבל פחות ביטקוינים ממה שסיפקת בשדה הסכום. אם נבחרו מספר נמענים, העמלה תחולק באופן שווה.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>העמלה תנוכה מהסכום שנשלח. הנמען יקבל פחות ביטקוינים ממה שהזנת בשדה הסכום. אם נבחרו מספר נמענים, העמלה תחולק באופן שווה.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2730,8 +2627,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>יש לתת תווית לכתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>הודעה שצורפה לביטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הביטקוין.</translation>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
+        <translation>הודעה שצורפה לללייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת לייטקוין.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2764,12 +2661,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>חתימה על הו&amp;דעה</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>אפשר לחתום על הודעות/הסכמים באמצעות הכתובות שלך, כדי להוכיח שבאפשרותך לקבל את הביטקוינים הנשלחים אליהן. יש להיזהר ולא לחתום על תוכן עמום או אקראי, מכיוון שתקיפות דיוג עשויות לנסות לגנוב את זהותך. יש לחתום רק על הצהרות מפורטות שהנך מסכים/ה להן.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive ecurrencies sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>באפשרותך לחתום על הודעות/הסכמים באמצעות הכתובות שלך, כדי להוכיח שאתה יכול לקבל את הביטקוינים הנשלחים אליהן. היזהר לא לחתום על תוכן עמום או אקראי, מכיוון שתקיפות פישינג עשויות לנסות לגנוב את הזהות שלך. חתום רק על הצהרות מפורטות שאתה מסכים להן.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>כתובת הביטקוין איתה לחתום את ההודעה</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>כתובת לייטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2800,8 +2697,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת ביטקוין זו בבעלותך</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת לייטקוין הזו בבעלותך.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2820,24 +2717,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>&amp;אימות הודעה</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>יש להזין את כתובת הנמען, ההודעה (נא לוודא שהעתקת במדויק את תווי קפיצות השורה, רווחים, טאבים וכדומה). והחתימה מתחת אשר מאמתת את ההודעה. יש להיזהר שלא לקרוא לתוך החתימה יותר מאשר בהודעה החתומה עצמה, כדי להימנע מניצול לרעה של המתווך שבדרך. יש לשים לב שהדבר רק מוכיח שהצד החותם מקבל עם הכתובת. הדבר אינו מוכיח משלוח כלשהו של עסקה!</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>כתובת הביטקוין שאיתה נחתמה ההודעה</translation>
-    </message>
-    <message>
-        <source>The signed message to verify</source>
-        <translation>ההודעה החתומה לאימות</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>החתימה שניתנת כאשר ההודעה נחתמה</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הביטקוין הנתונה</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת לייטקוין הנתונה</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3547,6 +3432,10 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
         <translation>שרת ה HTTP לא עלה. ראו את ה debug לוג לפרטים.</translation>
+    </message>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>ליבת ללייטקוין</translation>
     </message>
     <message>
         <source>The %s developers</source>

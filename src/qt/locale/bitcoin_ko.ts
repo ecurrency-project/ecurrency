@@ -66,14 +66,12 @@
         <translation>받는 주소들</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>비트코인을 보내는 계좌 주소입니다. 코인을 보내기 전에 금액과 받는 주소를 항상 확인하십시오.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>라이트코인을 보내는 계좌 주소입니다. 코인을 보내기 전에 잔고와 받는 주소를 항상 확인하세요.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>비트코인을 받는 계좌 주소입니다. 신규 주소를 만들려면 수신 탭의 '새 수신 주소를 생성하기' 버튼을 사용하십시오.
-서명은 '레거시' 타입의 주소만 가능합니다.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>라이트코인을 받을 수 있는 계좌 주소입니다. 매 거래마다 새로운 주소 사용을 권장합니다. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -182,28 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>지갑 암호화 완료</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>새로운 지갑 비밀번호를 입력하세요. &lt;br/&gt; 암호는 &lt;b&gt;10개 이상의 랜덤 문자&lt;/b&gt; 또는 &lt;b&gt;8개 이상의 단어&lt;/b&gt;를 사용해주세요.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>지갑의 이전 비밀번호와 새로운 비밀번호를 입력하세요.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>지갑을 암호화 해도 컴퓨터에 바이러스가 있을시 안전하지 않다는 것을 참고하세요.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>암호화할 지갑</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>지갑이 암호화 되기 직전입니다.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>지갑이 암호화 되었습니다.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>암호화 처리 과정을 끝내기 위해 %1을 종료합니다. 지갑 암호화는 컴퓨터로의 멀웨어 감염으로 인한 라이트코인 도난을 완전히 방지할 수 없음을 기억하세요.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -364,8 +342,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>프록시가 &lt;b&gt;활성화&lt;/b&gt; 되었습니다: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>코인을 비트코인 주소로 전송합니다.</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>라이트코인 주소로 코인 전송</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -377,7 +355,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>메시지 검증(&amp;V)...</translation>
+        <translation>메시지 확인(&amp;V)...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>라이트코인</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>지갑</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -400,12 +386,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>지갑에 포함된 개인키 암호화하기</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>지갑 주소가 본인 소유인지 증명하기 위해 메시지를 서명합니다.</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>지갑 주소가 본인 소유인지 증명하기 위해 라이트코인 주소에 서명할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>해당 비트코인 주소로 서명되었는지 확인하기 위해 메시지를 검증합니다.</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>라이트코인 주소의 전자 서명 확인을 위해 첨부된 메시지가 있을 경우 이를 검증할 수 있습니다.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,8 +410,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>툴바 색인표</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>지불 요청하기 (QR 코드와 bitcoin을 생성합니다: URIs)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>지불 요청하기 (QR코드와 라이트코인이 생성됩니다: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -433,15 +419,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>한번 이상 사용된 받는 주소와 라벨의 목록을 보이기</translation>
+        <translation>한번 이상 사용된 받는 주소와 주소 제목의 목록을 보여줍니다.</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>ecurrency: URI 또는 지불요청 열기</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>명령줄 옵션(&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>비트코인 네트워크에 %n 개의 연결이 활성화 되고 있습니다.</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>라이트코인 네트워크에 %n개의 연결이 활성화되어 있습니다.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -484,100 +474,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>최신 정보</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>파일로부터 PSBT 불러오기(&amp;L)</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>부분적으로 서명된 비트코인 트랜잭션 불러오기</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>클립보드로부터 PSBT 불러오기...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>클립보드로부터 부분적으로 서명된 비트코인 트랜잭션 불러오기</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>노드 창</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>노드 디버깅 및 진단 콘솔 열기 </translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>보내는 주소들(&amp;S)</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>받는 주소들(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>bitcoin 열기: URI</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>지갑 열기</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>지갑 하나 열기</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>지갑 닫기...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>지갑 닫기</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>모든 지갑 닫기...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>모든 지갑 닫기</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>사용할 수 있는 비트코인 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다.</translation>
-    </message>
-    <message>
-        <source>&amp;Mask values</source>
-        <translation>마스크값(&amp;M)</translation>
-    </message>
-    <message>
-        <source>Mask the values in the Overview tab</source>
-        <translation>개요 탭에서 값을 마스킹합니다.</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>기본 지갑</translation>
-    </message>
-    <message>
-        <source>No wallets available</source>
-        <translation>사용 가능한 블록이 없습니다.</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>창(&amp;W)</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>최소화</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>최대화</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>메인창</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>사용할 수 있는 라이트코인 명령줄 옵션 목록을 가져오기 위해 %1 도움말 메시지를 표시합니다.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -664,12 +562,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>지갑이 &lt;b&gt;암호화&lt;/b&gt; 되었고 현재 &lt;b&gt;잠겨&lt;/b&gt; 있습니다</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>원본 메세지:</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
-        <translation>치명적인 오류가 발생했습니다. %1 를 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>치명적인 오류가 발생했습니다. 라이트코인을 더이상 안전하게 진행할 수 없어 곧 종료합니다.</translation>
     </message>
 </context>
 <context>
@@ -924,8 +818,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>보내는 주소 편집</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>입력한 "%1" 주소는 올바른 비트코인 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>입력한 "%1" 주소는 올바른 라이트코인 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1021,12 +915,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>커스텀 데이터 폴더 사용:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>비트코인</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>가장 최근의 %1 GB를 제외하고 확인 후 블록 폐기 (정리)</translation>
+        <source>eCurrency</source>
+        <translation>라이트코인</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1037,8 +927,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>약 %1 GB의 데이터가 이 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1은 비트코인 블록체인의 사본을 다운로드하여 저장합니다.</translation>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
+        <translation>%1은 eCurrency 블록 체인의 사본을 다운로드하여 저장합니다.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1072,12 +962,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>유형</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>최근 거래는 아직 보이지 않을 수 있습니다. 따라서 당신의 지갑의 잔액이 틀릴 수도 있습니다. 이 정보는 당신의 지갑이 비트코인 네트워크와 완전한 동기화를 완료하면, 아래의 설명과 같이 정확해집니다.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>최근 거래는 아직 보이지 않을 것입니다, 그러므로 당신의 지갑의 잔액이 틀릴 수도 있습니다. 이 정보는 라이트코인 네트워크와 완전한 동기화가 완료되면 아래의 설명과 같이 정확해집니다.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>아직 표시되지 않은 거래의 영향을 받는 비트코인을 사용하려고 하는 것은 네트워크에서 허가되지 않습니다.</translation>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>아직 표시되지 않은 거래의 영향을 받는 라이트코인을 사용하려고 하는 것은 네트워크에서 허가되지 않습니다.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1269,8 +1159,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>검증되지 않은 잔돈 쓰기 (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 비트코인 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>라우터에서 eCurrency 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1285,8 +1175,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>연결 요청을 허용 (&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 비트코인 네트워크에 연결합니다.</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 프록시를 통해 라이트코인 네트워크 연결</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1319,6 +1209,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Tor 서비스를 경유하여 라이트코인 네트워크에 연결하기 위해 분리된 SOCKS5 프록시를 사용.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1436,8 +1330,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>유형</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래된 것 같습니다. 당신의 지갑은 비트코인 네트워크에 연결된 뒤 자동으로 동기화 하지만, 아직 과정이 끝나지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래된 것 같습니다. 라이트코인 네트워크에 연결하고 난 다음에 지갑을 자동으로 동기화 하지만, 아직 과정이 끝나지는 않았습니다.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1634,16 +1528,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>지불 요청 오류</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>비트코인을 시작할 수 없습니다: 지급을 위한 클릭 핸들러</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>라이트코인을 시작할 수 없습니다: 지급제어기를 클릭하세요</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI 핸들링</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://"은 잘못된 URI입니다. 'bitcoin:'을 사용하십시오.</translation>
+        <source>'ecurrency://' is not a valid URI. Use 'ecurrency:' instead.</source>
+        <translation>'ecurrency://"은 잘못된 URI입니다. 'ecurrency:'을 사용하십시오.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.</source>
@@ -1662,8 +1556,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>잘못된 지불 주소 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI의 파싱에 문제가 발생했습니다. 잘못된 비트코인 주소나 URI 파라미터 구성에 오류가 존재할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>URI의 파싱에 문제가 발생했습니다. 잘못된 라이트코인 주소나 URI 파라미터 구성에 오류가 존재할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1704,8 +1598,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>비트코인 주소를 입력하세요 (예: %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>라이트코인 주소를 입력하기 (예. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2165,8 +2059,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>메시지(&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>지불 요청에 첨부되는 선택가능한 메시지 입니다. 이 메세지는 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 비트코인 네트워크로 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>지불 요청에 첨부되는 선택가능한 메시지 입니다. 이 메세지는 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 라이트코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2418,6 +2312,14 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>숨기기</translation>
     </message>
     <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>블록의 용량보다 거래의 용량이 작은 경우에는 최소한의 수수료만으로도 충분합니다. 그러나 라이트코인 네트워크의 처리량보다 더 많은 거래 요구는 영원히 검증이 안 될 수도 있습니다.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(툴팁을 꼭 읽어보세요)</translation>
+    </message>
+    <message>
         <source>Recommended:</source>
         <translation>권장:</translation>
     </message>
@@ -2646,8 +2548,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>%n 블록 안에 승인이 시작될 것으로 추정됩니다.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>경고: 잘못된 비트코인 주소입니다</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>경고: 잘못된 라이트코인 주소입니다</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2685,8 +2587,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이전에 사용한 주소를 선택하기</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>이 비트코인 주소로 송금됩니다</translation>
+        <source>This is a normal payment.</source>
+        <translation>이것은 정상적인 지불입니다.</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>이 라이트코인 주소로 송금됩니다</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2705,11 +2611,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>입력된 항목 삭제</translation>
     </message>
     <message>
-        <source>The amount to send in the selected unit</source>
-        <translation>선택한 단위로 보낼 수량</translation>
-    </message>
-    <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>수수료가 송금되는 금액에서 공제됩니다. 수령자는 금액 필드에서 입력한 금액보다 적은 금액을 전송받게 됩니다. 받는 사람이 여러 명인 경우 수수료는 균등하게 나누어집니다.</translation>
     </message>
     <message>
@@ -2737,8 +2639,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이 주소에 라벨을 입력하면 사용된 주소 목록에 라벨이 표시됩니다</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>bitcoin: URI에 추가된 메시지는 참고를 위해 거래내역과 함께 저장될 것입니다. Note: 이 메시지는 비트코인 네트워크로 전송되지 않습니다.</translation>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
+        <translation>라이트코인에 첨부된 메시지: 참고용으로 거래와 함께 저장될 URI. 메모: 이 메시지는 라이트코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2771,12 +2673,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>메시지 서명(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>당신이 해당 주소로 비트코인을 받을 수 있다는 것을 증명하기 위해 메시지/합의문을 그 주소로 서명할 수 있습니다. 피싱 공격이 당신을 속일 수 있으므로 임의의 내용이나 모호한 내용에 서명하지 않도록 주의하세요. 당신이 동의하는 명확한 조항들에만 서명하세요.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive ecurrencies sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>여러분 자신을 증명하기 위해 주소를 첨가하고 서명할 수 있습니다. 피싱 공격으로 말미암아 여러분의 서명을 통해 속아 넘어가게 할 수 있으므로, 서명하지 않은 모든 모호한 요소를 주의하십시오. 조항들이 완전 무결한지 확인 후 동의하는 경우에만 서명하십시오.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>메세지를 서명할 비트코인 주소</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>메세지를 서명한 라이트코인 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2807,8 +2709,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이 서명을 시스템 클립보드로 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>당신이 이 비트코인 주소를 소유한다는 증명을 위해 메시지를 서명합니다</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>여러분의 라이트코인 주소를 증명하려면 메시지 서명하십시오</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2831,20 +2733,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>메시지를 검증하기 위해 아래 칸에 각각 지갑 주소와 메시지, 서명을 입력하세요 (메시지 원본의 띄어쓰기, 들여쓰기, 행 나눔 등이 정확하게 입력되어야 하므로 원본을 복사해서 입력하세요). 네트워크 침입자의 속임수에 넘어가지 않도록 서명된 메시지 내용 이외의 내용은 참고하지 않도록 유의하세요. 이 기능은 단순히 서명한 쪽에서 해당 주소로 송금을 받을 수 있다는 것을 증명하는 것 뿐이며 그 이상은 어떤 것도 보증하지 않습니다.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>메세지의 서명에 사용된 비트코인 주소</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>메세지의 서명에 사용된 라이트코인 주소</translation>
     </message>
     <message>
-        <source>The signed message to verify</source>
-        <translation>검증할 서명된 메세지</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>메세지의 서명되었을 때의 시그니처</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>입력된 비트코인 주소로 메시지가 서명되었는지 검증합니다</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>정확한 라이트코인 주소가 입력됬는지 메시지를 확인하시오</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3554,6 +3448,10 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
         <translation>HTTP 서버를 시작할 수 없습니다. 자세한 사항은 디버그 로그를 확인 하세요.</translation>
+    </message>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>라이트코인 코어</translation>
     </message>
     <message>
         <source>The %s developers</source>

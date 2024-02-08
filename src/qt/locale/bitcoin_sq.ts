@@ -66,13 +66,12 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë Bitcoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Këto janë eCurrency adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Këto janë adresat tuaja të Bitcoin për të marrë pagesa. Përdorni butonin 'Krijo adresë të re marrëse' në skedën e marrjes për të krijuar adresa të reja. Nënshkrimi është i mundur vetëm me adresa të tipit 'trashëgimi'.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Këto janë eCurrency adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -263,6 +262,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portofol</translation>
+    </message>
+    <message>
         <source>&amp;Send</source>
         <translation>&amp;Dergo</translation>
     </message>
@@ -424,8 +431,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -815,6 +822,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>eCurrency Core</source>
+        <translation>Berthama eCurrency</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informacion</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
         <translation>Fonde te pamjaftueshme</translation>
     </message>
@@ -822,5 +837,9 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Rescanning...</source>
         <translation>Rikerkim</translation>
     </message>
-    </context>
+    <message>
+        <source>Error</source>
+        <translation>Problem</translation>
+    </message>
+</context>
 </TS>

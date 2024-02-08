@@ -66,14 +66,12 @@
         <translation>العنوان الرقمي المُرسَل إليه</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>هذه هي عناوين البيتكوين لإرسال المدفوعات. دائما تحقق من المبلغ وعنوان المستلم قبل الإرسال.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>هذه هي عناوين eCurrency التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>هذه هي عناوين بتكوين الخاصة بك لتلقي المدفوعات. استخدم الزر "إنشاء عنوان استلام جديد" في علامة تبويب الاستلام لإنشاء عناوين جديدة.
-التوقيع ممكن فقط مع عناوين من النوع "قديم".</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>هذه هي عناوين eCurrency التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -166,8 +164,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>تأكيد تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>إذا شفرت محفظتك وفقدت كلمة المرور، ستفقد كل ما تملك من البيتكوين.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات ECURRENCYS الخاصة بك.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -178,28 +176,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>تم تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>أدخل كلمة المرور الجديدة للمحفظة. &lt;br/&gt; الرجاء استخدام  كلمة مرور تتكون من &lt;b&gt; عشرة أحرف عشوائية أو أكثر &lt;/b&gt; ، أو &lt;b&gt; ثماني كلمات أو أكثر&lt;/b&gt; .</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>ادخل كملة المرور القديمة وكلمة المرور الجديدة للمحفظة.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>تذكر أن تشفير محفظتك لا يحمي البيتكوين الخاصة بك بشكل كامل من السرقة من قبل البرامج الخبيثةالتي تصيب حاسوبك</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>سوف يتم تشفير محفظتك</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>سوف يتم تشفير محفظتك.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>محفظتك ألان مشفرة</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>سيتم إغلاق %1 الآن لإنهاء عملية التشفير. تذكر أن تشفير محفظتك لا يمكن أن يحمي البتكوين الخاص بك بالكامل من السرقة عبر البرامج الضارة التي بامكانها أن تصيب جهاز الكمبيوتر الخاص بك.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -356,12 +334,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>إعادة فهرسة الكتل على القرص ...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>%1 اتصال نشط بشبكة البيتكوين</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>ارسل عملات الى عنوان بيتكوين</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>ارسل عملات الى عنوان eCurrency</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -374,6 +348,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;التحقق من الرسالة...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>بتكوين</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>محفظة</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -396,12 +378,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>تشفير المفتاح الخاص بمحفظتك</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>وقَع الرسائل بواسطة ال: Bitcoin الخاص بك لإثبات امتلاكك لهم</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>وقَع الرسائل بواسطة ال: eCurrency الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Bitcoin محدَدة</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل eCurrency محدَدة</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -420,7 +402,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
         <translation>أطلب دفعات (يولد كودات الرمز المربع وبيت كوين: العناوين المعطاة)</translation>
     </message>
     <message>
@@ -430,6 +412,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>عرض قائمة عناوين الإستقبال المستخدمة والملصقات</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>فتح URI : eCurrency أو طلب دفع</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -476,67 +462,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>محدث</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>&amp; تحميل PSBT من ملف ...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>تحميل معاملة بتكوين الموقعة جزئيًا</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>تحميل PSBT من الحافظة ...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>تحميل معاملة بتكوين الموقعة جزئيًا من الحافظة</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>نافذة Node </translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>افتح وحدة التحكم في تصحيح أخطاء node والتشخيص</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;عناوين الإرسال</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;عناوين الإستقبال</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>افتح عملة بيتكوين: URI</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>افتح المحفظة</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>افتح المحفظة</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>اغلق المحفظة...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>اغلق المحفظة</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>إغلاق جميع المحافظ ...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>إغلاق جميع المحافظ ...</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
         <translation>بين اشارة المساعدة %1 للحصول على قائمة من خيارات اوامر البت كوين المحتملة </translation>
     </message>
     <message>
@@ -657,12 +583,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>المحفظة &lt;b&gt;مشفرة&lt;/b&gt; و &lt;b&gt;مقفلة&lt;/b&gt; حاليا</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>الرسالة الأصلية:</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
-        <translation>حدث خطأ فادح. لم يعد بإمكان %1 المتابعة بأمان وسيتم الإنهاء.</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>خطأ فادح حدث . لا يمكن اتمام eCurrency بامان سيتم الخروج</translation>
     </message>
 </context>
 <context>
@@ -913,7 +835,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>تعديل عنوان الارسال</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
         <translation>العنوان المدخل "%1" ليس عنوان بيت كوين صحيح.</translation>
     </message>
     <message>
@@ -1010,7 +932,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>eCurrency</source>
         <translation>بتكوين</translation>
     </message>
     <message>
@@ -1026,7 +948,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>سيتم تخزين %1 جيجابايت تقريباً من البيانات في هذا الدليل.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
         <translation>سيقوم %1 بتنزيل نسخة من سلسلة كتل بتكوين وتخزينها.</translation>
     </message>
     <message>
@@ -1053,11 +975,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>قد لا تكون المعاملات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد الانتهاء من محفظتك مع شبكة البيتكوين، كما هو مفصل أدناه.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>قد لا تكون المعاملات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد الانتهاء من محفظتك مع شبكة الeCurrency، كما هو مفصل أدناه.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>لن تقبل الشبكة محاولة إنفاق البتكوين المتأثرة بالمعاملات التي لم يتم عرضها بعد.</translation>
     </message>
     <message>
@@ -1258,7 +1180,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>السماح بالاتصالات الواردة.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
         <translation>الاتصال بشبكة البتكوين عبر وكيل SOCKS5.</translation>
     </message>
     <message>
@@ -1292,6 +1214,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Tor</source>
         <translation>تور</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>قم بالاتصال بشبكة بتكوين عبر وكيل SOCKS5 منفصل لخدمات تور المخفية.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1409,7 +1335,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
         <translation>قد تكون المعلومات المعروضة قديمة. تتزامن محفظتك تلقائيًا مع شبكة البتكوين بعد إنشاء الاتصال، ولكن هذه العملية لم تكتمل بعد.</translation>
     </message>
     <message>
@@ -1607,7 +1533,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>خطأ في طلب الدفع</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
         <translation>لا يمكن تشغيل بتكوين: معالج النقر للدفع</translation>
     </message>
     <message>
@@ -1635,7 +1561,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>عنوان الدفع غير صالح %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
         <translation>لا يمكن تحليل العنوان (URI)! يمكن أن يحدث هذا بسبب عنوان بتكوين غير صالح أو معلمات عنوان (URI) غير صحيحة.</translation>
     </message>
     <message>
@@ -1677,7 +1603,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a eCurrency address (e.g. %1)</source>
         <translation>ادخل عنوان محفطة البتكوين (مثال %1)</translation>
     </message>
     <message>
@@ -2102,7 +2028,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;رسالة:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
         <translation>رسالة اختيارية لإرفاقها بطلب الدفع، والتي سيتم عرضها عند فتح الطلب. ملاحظة: لن يتم إرسال الرسالة مع الدفعة عبر شبكة البتكوين.</translation>
     </message>
     <message>
@@ -2347,6 +2273,14 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>إخفاء</translation>
     </message>
     <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>إن دفع الحد الأدنى فقط من الرسوم يجوز طالما أن حجم المعاملات أقل من المساحة الموجودة في الكتل. ولكن كن على علم بأن هذا يمكن أن ينتهي في معاملة غير مؤكدة أبداً عندما يكون هناك طلب أكبر على معاملات البتكوين مما تستطيع الشبكة معالجته.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(اقرأ تلميح الأدوات)</translation>
+    </message>
+    <message>
         <source>Recommended:</source>
         <translation>موصى به:</translation>
     </message>
@@ -2556,7 +2490,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>انتهاء صلاحية طلب الدفع.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Pay only the required fee of %1</source>
+        <translation>دفع فقط الرسوم المطلوبة ل %1</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid eCurrency address</source>
         <translation>تحذير: عنوان بتكوين غير صالح</translation>
     </message>
     <message>
@@ -2595,7 +2533,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>اختر عنوانا مستخدم سابقا</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>This is a normal payment.</source>
+        <translation>هذا دفع اعتيادي</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
         <translation>عنوان البت كوين المرسل اليه الدفع</translation>
     </message>
     <message>
@@ -2615,11 +2557,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>ازل هذه المداخله</translation>
     </message>
     <message>
-        <source>The amount to send in the selected unit</source>
-        <translation>المبلغ للإرسال في الوحدة المحددة</translation>
-    </message>
-    <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>سيتم خصم الرسوم من المبلغ الذي يتم إرساله. لذا سوف يتلقى المستلم مبلغ أقل من البتكوين المدخل في حقل المبلغ. في حالة تحديد عدة مستلمين، يتم تقسيم الرسوم بالتساوي.</translation>
     </message>
     <message>
@@ -2647,7 +2585,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>أدخل تسمية لهذا العنوان لإضافته إلى قائمة العناوين المستخدمة</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
         <translation>الرسالة التي تم إرفاقها مع البتكوين: العنوان الذي سيتم تخزينه مع المعاملة للرجوع إليه. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة البتكوين.</translation>
     </message>
     <message>
@@ -2681,11 +2619,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>&amp;توقيع الرسالة</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>تستطيع توقيع رسائل/اتفاقات مع عناوينك لإثبات أنه بإمكانك استقبال بتكوين مرسل إليهم. كن حذرا من عدم توقيع أي شيء غامض أو عشوائي، كهجمات التصيد التي قد تحاول خداعك لتوقيع هويتك لديهم. وقع البيانات المفصلة بالكامل والتي أنت توافق عليها فقط.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The eCurrency address to sign the message with</source>
         <translation>عنوان البتكوين لتوقيع الرسالة به</translation>
     </message>
     <message>
@@ -2717,7 +2651,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>نسخ التوقيع الحالي إلى حافظة النظام</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this eCurrency address</source>
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
     </message>
     <message>
@@ -2737,23 +2671,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>&amp;تحقق رسالة</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>أدخل عنوان المتلقي، راسل (تأكد من نسخ فواصل الأسطر، الفراغات، الخ.. تماما) والتوقيع أسفله لتأكيد الرسالة. كن حذرا من عدم قراءة داخل التوقيع أكثر مما هو موقع بالرسالة نفسها، لتجنب خداعك بهجوم man-in-the-middle. لاحظ أنه هذا لاثبات أن الجهة الموقعة تستقبل مع العنوان فقط، لا تستطيع اثبات الارسال لأي معاملة.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The eCurrency address the message was signed with</source>
         <translation>عنوان البتكوين الذي تم توقيع الرسالة به</translation>
     </message>
     <message>
-        <source>The signed message to verify</source>
-        <translation>الرسالة الموقعة للتحقق.</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>التوقيع يعطى عندما تكون الرسالة موقعة.</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
         <translation>تحقق من الرسالة للتأكد من توقيعها مع عنوان البتكوين المحدد</translation>
     </message>
     <message>
@@ -3442,8 +3364,8 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation>غير قادر على بدء خادم ال HTTP. راجع سجل تصحيح الأخطاء للحصول على التفاصيل.</translation>
     </message>
     <message>
-        <source>The %s developers</source>
-        <translation>%s المبرمجون</translation>
+        <source>eCurrency Core</source>
+        <translation>جوهر eCurrency</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>

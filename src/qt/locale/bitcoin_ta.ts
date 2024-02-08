@@ -374,6 +374,14 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>பணப்பை</translation>
+    </message>
+    <message>
         <source>&amp;Send</source>
         <translation>&amp;அனுப்பு</translation>
     </message>
@@ -940,64 +948,8 @@
         <translation>நல்வரவு</translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>%1 க்கு வரவேற்கிறோம்.</translation>
-    </message>
-    <message>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>இது முதல் முறையாக துவங்கியது, நீங்கள் %1 அதன் தரவை எங்கு சேமித்து வைக்கும் என்பதை தேர்வு செய்யலாம்.</translation>
-    </message>
-    <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>நீங்கள் சரி என்பதைக் கிளிக் செய்தால் %1 ஆரம்பத்தில் %4 இல் ஆரம்பிக்கப்பட்ட %3 இன் ஆரம்ப பரிவர்த்தனைகளைத் தொடங்கும் போது முழு %4 தொகுதி சங்கிலி (%2GB) பதிவிறக்க மற்றும் செயலாக்கத் தொடங்கும்.</translation>
-    </message>
-    <message>
-        <source>Reverting this setting requires re-downloading the entire blockchain. It is faster to download the full chain first and prune it later. Disables some advanced features.</source>
-        <translation>இந்த அமைப்பை மாற்றியமைக்க முழு பிளாக்செயினையும் மீண்டும் டவுன்லோட் செய்ய வேண்டும். முதலில் முழு செயினையும் டவுன்லோட் செய்த பின்னர் ப்ரூன் செய்வது வேகமான செயல் ஆகும். சில மேம்பட்ட அம்சங்களை முடக்கும்.</translation>
-    </message>
-    <message>
-        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>இந்த ஆரம்ப ஒத்திசைவு மிகவும் கோரி வருகிறது, முன்பு கவனிக்கப்படாத உங்கள் கணினியுடன் வன்பொருள் சிக்கல்களை அம்பலப்படுத்தலாம். ஒவ்வொரு முறையும் நீங்கள் %1 ரன் இயங்கும் போது, ​​அது எங்கிருந்து வெளியேறும் என்பதைத் தொடர்ந்து பதிவிறக்கும்.</translation>
-    </message>
-    <message>
-        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>தடுப்பு சங்கிலி சேமிப்பகத்தை (கத்தரித்து) கட்டுப்படுத்த நீங்கள் தேர்ந்தெடுக்கப்பட்டிருந்தால், வரலாற்றுத் தரவுகள் இன்னும் பதிவிறக்கம் செய்யப்பட்டு, செயல்படுத்தப்பட வேண்டும், ஆனால் உங்கள் வட்டுப் பயன்பாட்டை குறைவாக வைத்திருப்பதற்குப் பிறகு நீக்கப்படும்.</translation>
-    </message>
-    <message>
-        <source>Use the default data directory</source>
-        <translation>இயல்புநிலை தரவு கோப்பகத்தைப் பயன்படுத்தவும்</translation>
-    </message>
-    <message>
-        <source>Use a custom data directory:</source>
-        <translation>தனிப்பயன் தரவு கோப்பகத்தைப் பயன்படுத்தவும்:</translation>
-    </message>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>சமீபத்திய %1 ஜிபி ப்லாக்கை தவிர (ப்ரூன்), சரிபார்ப்புக்குப் பிறகு மற்ற ப்லாக்கை நிராகரிக்கவும்</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>குறைந்தது %1 ஜிபி தரவு இந்த அடைவில் சேமிக்கப்படும், மேலும் காலப்போக்கில் அது வளரும்.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>இந்த அடைவில் %1 ஜிபி தரவு சேமிக்கப்படும்.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>Bitcoin தொகுதி சங்கிலியின் நகலை %1 பதிவிறக்கம் செய்து சேமித்து வைக்கும்.</translation>
-    </message>
-    <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>பணத்தாள் இந்த அடைவில் சேமிக்கப்படும்.</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>பிழை: குறிப்பிட்ட தரவு அடைவு "%1" உருவாக்க முடியாது.</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -3112,8 +3064,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
 <context>
     <name>WalletView</name>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;ஏற்றுமதி</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency மையம்</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>

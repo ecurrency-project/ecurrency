@@ -334,12 +334,8 @@
         <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Tarpinis serveris yra &lt;b&gt;įgalintas&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Siųsti monetas Bitcoin adresui</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Siųsti monetas eCurrency adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -352,6 +348,14 @@
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Tikrinti žinutę...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Piniginė</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -891,60 +895,8 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>Sveiki atvykę į %1.</translation>
-    </message>
-    <message>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Kadangi tai yra pirmas kartas, kai programa paleidžiama, galite pasirinkti, kur %1 išsaugos savo duomenis.</translation>
-    </message>
-    <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>Spustelėjus Gerai, %1 pradės atsisiųsti ir apdoroti visą %4 blokų grandinę (%2GB), pradedant nuo ankstesnių operacijų %3, kai iš pradžių buvo paleista %4.</translation>
-    </message>
-    <message>
-        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>Ši pradinė sinchronizacija yra labai sudėtinga ir gali sukelti kompiuterio techninės įrangos problemas, kurios anksčiau buvo nepastebėtos. Kiekvieną kartą, kai paleidžiate %1, jis tęs parsisiuntimą ten, kur jis buvo išjungtas.</translation>
-    </message>
-    <message>
-        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>Jei pasirinkote apriboti blokavimo grandinės saugojimą (genėjimas), istoriniai duomenys vis tiek turi būti atsisiunčiami ir apdorojami, bet vėliau bus ištrinti, kad diskų naudojimas būtų mažas.</translation>
-    </message>
-    <message>
-        <source>Use the default data directory</source>
-        <translation>Naudoti numatytajį duomenų katalogą</translation>
-    </message>
-    <message>
-        <source>Use a custom data directory:</source>
-        <translation>Naudoti kitą duomenų katalogą:</translation>
-    </message>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Ištrinti blokus po patikrinimo, išskyrus paskutinius %1 GB (nukarpimas)</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Šiame kataloge bus saugomi bent %1 GB duomenų, kurie laikui bėgant didės.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Šiame kataloge bus saugoma maždaug apie %1 GB duomenų.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 bus atsisiųsta ir išsaugota Bitcoin blokų grandinės kopiją.</translation>
-    </message>
-    <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>Piniginė taip pat bus saugojama šiame direktyve.</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Klaida: negali būti sukurtas nurodytas duomenų katalogas „%1“.</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1135,24 +1087,8 @@
         <translation>Piniginė</translation>
     </message>
     <message>
-        <source>Expert</source>
-        <translation>Ekspertas</translation>
-    </message>
-    <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>Įgalinti monetų ir &amp;valdymo funkcijas</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Jei išjungsite nepatvirtintą likučio išleidimą, likutį iš sandorio negalėsite naudoti tol, kol toks sandoris turės bent vieną patvirtinimą. Tai taip pat turi įtakos jūsų balansui.</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Išleiskite nepatvirtintus pakeitimus</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Bitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti eCurrency kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2441,15 +2377,7 @@ Pastaba: Kadangi mokestis apskaičiuojamas pagal baitą, mokestis už „100 sat
         <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
-        <source>Signature</source>
-        <translation>Parašas</translation>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Nukopijuokite dabartinį parašą į sistemos iškarpinę</translation>
-    </message>
-    <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this eCurrency address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -2469,12 +2397,8 @@ Pastaba: Kadangi mokestis apskaičiuojamas pagal baitą, mokestis už „100 sat
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin adresas, kuriuo buvo pasirašytas pranešimas</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas eCurrency adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3082,64 +3006,8 @@ Pastaba: Kadangi mokestis apskaičiuojamas pagal baitą, mokestis už „100 sat
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>The %s developers</source>
-        <translation>%s kūrėjai</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool turi būti bent %d MB</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Negalima išspręsti -%s adreso: „%s“</translation>
-    </message>
-    <message>
-        <source>Change index out of range</source>
-        <translation>Pakeiskite indeksą iš diapazono</translation>
-    </message>
-    <message>
-        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
-        <translation>%s konfigūravimo nustatymas taikomas tik %s tinkle, kai yra [%s] skiltyje.</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation>Autorių teisės (C) %i-%i</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation>Nustatyta sugadinta blokų duomenų bazė</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>Ar norite dabar atstatyti blokų duomenų bazę?</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation>Klaida inicijuojant blokų duomenų bazę</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Klaida inicijuojant piniginės duomenų bazės aplinką %s!</translation>
-    </message>
-    <message>
-        <source>Error loading %s</source>
-        <translation>Klaida įkeliant %s</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Private keys can only be disabled during creation</source>
-        <translation>Klaida įkeliant %s: Privatūs raktai gali būti išjungti tik kūrimo metu</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>Klaida įkeliant %s: Piniginės failas pažeistas</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Klaida įkeliant %s: Piniginei reikia naujesnės%s versijos</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation>Klaida įkeliant blokų duombazę</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency branduolys</translation>
     </message>
     <message>
         <source>Error opening block database</source>

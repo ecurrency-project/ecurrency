@@ -66,8 +66,12 @@
         <translation>Адрес за получаване</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тези са вашите Биткойн адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
+    </message>
+    <message>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите eCurrency адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,7 +168,7 @@
         <translation>Потвърди криптирането на порфейла</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
         <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -346,7 +350,7 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a eCurrency address</source>
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -360,6 +364,14 @@
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>Биткоин</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Портфейл</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -382,12 +394,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Биткойн адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя eCurrency адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Биткойн адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените eCurrency адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +418,8 @@
         <translation>Лентата с инструменти</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и биткойн: URIs)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и eCurrency: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -416,6 +428,10 @@
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Покажи списък с използваните адреси и имена.</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Отворете eCurrency: URI  или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -458,52 +474,8 @@
         <translation>Актуално</translation>
     </message>
     <message>
-        <source>Node window</source>
-        <translation>Прозорец на възела</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>Отворете портфейл</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>Затвори Портфейла</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Затвори портфейла</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>Затвори Всички Портфейли...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>Затвори всички портфейли</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Биткойн команди</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>Портфейл по подразбиране</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Прозорец</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Минимизирай</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>Увеличи</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Главен Прозорец</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни eCurrency команди</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -563,7 +535,11 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
     </message>
-    </context>
+    <message>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. eCurrency не може да продължи безопасно и ще се изключи.</translation>
+    </message>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -760,7 +736,7 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -833,7 +809,7 @@
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>eCurrency</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -945,24 +921,16 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Bitcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия eCurrency порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Accept connections from outside.</source>
-        <translation>Позволи външни връзки</translation>
-    </message>
-    <message>
-        <source>Allow incomin&amp;g connections</source>
-        <translation>Позволи входящи връзки</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Биткойн мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>Свързване с eCurrency мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1072,7 +1040,7 @@
         <translation>форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
@@ -1138,8 +1106,8 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Биткойн не можe да се стартира: click-to-pay handler</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>eCurrency не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1180,8 +1148,8 @@
         <translation>Количество</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Въведете Биткойн адрес (например: %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>Въведете eCurrency адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1698,8 +1666,8 @@
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Внимание: Невалиден Биткойн адрес</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>Внимание: Невалиден eCurrency адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1803,7 +1771,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this eCurrency address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1819,7 +1787,7 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>
@@ -2315,6 +2283,10 @@
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>eCurrency ядро</translation>
+    </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>Желаете ли да пресъздадете базата данни с блокове сега?</translation>

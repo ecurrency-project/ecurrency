@@ -66,13 +66,12 @@
         <translation>Fogadási címek</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezek a te  Bitcoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezek a eCurrency címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Ezek a Bitcoin címeid amelyeken fogadni tudsz Bitcoin utalásokat. Az "Új cím létrehozása" gombbal tudsz új címet létrehozni. Aláírni csak korábbi egyessel kezdődő címekkel lehet.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezek a eCurrency címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -169,8 +168,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Tárca titkosításának megerősítése</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES BITCOINJA ELVESZIK&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha titkosítja a tárcáját és elveszíti a jelszavát, akkor &lt;b&gt;AZ ÖSSZES ECURRENCYJA ELVESZIK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -181,28 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Tárca titkosítva</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Írja be a tárca új jelszavát. &lt;br/&gt;A jelszó összetétele a következő: &lt;b&gt;tíz vagy annál több véletlenszerű karakter&lt;/b&gt;, vagy &lt;b&gt;nyolc vagy annál több szó&lt;/b&gt;. </translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Írja be a tárca régi és új jelszavát.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Ne feledd, hogy a tárca titkosítása nem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>A titkositandó tárca</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Tárcatitkosítás megkezdése.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Tárcáját titkosítottuk.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>A %1 most bezár, hogy befejezze a titkosítást. Ne feledje, hogy a tárca titkosítása nem nyújt teljes védelmet azzal szemben, hogy kártékony programok megfertőzzék a számítógépét és ellopják a ecurrencyjait.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -359,12 +338,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy  &lt;b&gt;aktív&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bitcoin küldése megadott címre</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>eCurrency küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -377,6 +352,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Tárca</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -399,12 +382,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Bitcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a eCurrency-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Bitcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt eCurrency-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,8 +406,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "ecurrency:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -435,12 +418,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>"ecurrency:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+    </message>
+    <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n aktív kapcsolat a eCurrency hálózathoz</numerusform><numerusform>%n aktív kapcsolat a eCurrency hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,100 +470,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Naprakész</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>&amp;PSBT betöltése fájlból.</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>Részlegesen aláírt Bitcoin tranzakció (PSBT) betöltése</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>PSBT betöltése vágólapról</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>Részlegesen aláírt Bitcoin tranzakció (PSBT) betöltése vágólapról</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>Csomópont ablak</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>Nyisd meg a hibaellenőrző és diagnosztizáló konzolt.</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;Küldő címek</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;Fogadó címek</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>Bitcoin URI megnyitása</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>Tárca megnyitása</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>Tárca megnyitása</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>Tárca bezárása...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Tárca bezárása</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>Összes tárca bezárása...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>Összes tárca bezárása</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>A %1 súgó megjelenítése a Bitcoin lehetséges parancssori kapcsolóinak listájával</translation>
-    </message>
-    <message>
-        <source>&amp;Mask values</source>
-        <translation>&amp;Értékek elrejtése</translation>
-    </message>
-    <message>
-        <source>Mask the values in the Overview tab</source>
-        <translation>Értékek elrejtése az Áttekintés fülön</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>Alapértelmezett tárca</translation>
-    </message>
-    <message>
-        <source>No wallets available</source>
-        <translation>Nincs elérhető tárca</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Ablak</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Rejtés</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>Nagyítás</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Főablak</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>A %1 súgó megjelenítése a eCurrency lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -662,12 +557,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>A tárca &lt;b&gt;titkosítva&lt;/b&gt; és jelenleg &lt;b&gt;bezárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>Eredeti üzenet:</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt %1 nem tud biztonságban továbblépni így most kilép.</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A eCurrency működése nem biztonságos és hamarosan leáll.</translation>
     </message>
 </context>
 <context>
@@ -918,16 +809,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
-    </message>
-    <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>A(z) "%1" már egy létező fogadó cím "%2" névvel és nem lehet küldő címként hozzáadni.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>A megadott "%1" cím már szerepel a címjegyzékben "%2" néven.</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes eCurrency-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1015,12 +898,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Blokkok elhgyása ellenőrzés után, kivéve a legújabb %1 GB-ot (nyesés)</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1031,8 +910,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Hozzávetőlegesen %1 GB adatot fogunk ebben a könyvtárban tárolni.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 le fog töltődni és a Bitcoin blokk lánc egy másolatát fogja tárolni.</translation>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
+        <translation>%1 le fog töltődni és a eCurrency blokk lánc egy másolatát fogja tárolni.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1066,12 +945,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>A legutóbbi tranzakciók még lehet, hogy nem láthatók, és így előfordulhat, hogy a tárca egyenlege helytelen. A tárca azon nyomban az aktuális egyenleget fogja mutatni, amint befejezte a bitcoin hálózattal történő szinkronizációt, amely alább van részletezve.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a ecurrency hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>A hálózat nem fogadja el azoknak a bitcoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>A hálózat nem fogadja el azoknak a ecurrencyoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1263,8 +1142,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Költése a a jóváhagyatlan visszajárónak</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A eCurrency-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1279,8 +1158,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Bejövő kapcsolatok engedélyezése.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a eCurrency hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1313,6 +1192,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Csatlakozás a eCurrency hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1426,8 +1309,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a Bitcoin hálózattal, de ez a folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a eCurrency hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1628,8 +1511,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Hiba történt a fizetési kérelem során</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>A bitcoin nem tud elindulni: click-to-pay kezelő</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>A ecurrency nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1656,8 +1539,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Érvénytelen fizetési cím %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Bitcoin cím, vagy rossz URI paraméterezés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen eCurrency cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1698,8 +1581,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ad meg egy Bitcoin címet (pl: %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>Ad meg egy eCurrency címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2159,8 +2042,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Üzenet:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Bitcoin hálózaton keresztül.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a eCurrency hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2412,6 +2295,14 @@ Figyelem: Mivel bájtonként lesz a dj kiszámolva ezért a "100 satoshi per kB"
         <translation>Elrejtés</translation>
     </message>
     <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>Alacsony díj is megfelelő, ha nincs több tranzakció mint amennyi hely a blokkokban. Figyelem! Ha a hálózat túlterhelt, lehetséges, hogy a tranzakció nem lesz megerősítve.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(olvasd el a gyorstippet)</translation>
+    </message>
+    <message>
         <source>Recommended:</source>
         <translation>Ajánlott:</translation>
     </message>
@@ -2640,8 +2531,8 @@ Figyelem: Mivel bájtonként lesz a dj kiszámolva ezért a "100 satoshi per kB"
         <translation><numerusform>Becsülhetőn %n blokkon belül kerül be.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>Figyelmeztetés: Érvénytelen eCurrency cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2679,8 +2570,12 @@ Figyelem: Mivel bájtonként lesz a dj kiszámolva ezért a "100 satoshi per kB"
         <translation>Válassz egy korábban már használt címet</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Erre a Bitcoin címre küldje az összeget</translation>
+        <source>This is a normal payment.</source>
+        <translation>Ez normál fizetés.</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>Erre a eCurrency címre küldje az összeget</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2765,12 +2660,8 @@ Figyelem: Mivel bájtonként lesz a dj kiszámolva ezért a "100 satoshi per kB"
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin cím, amivel alá kívánja írni az üzenetet</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>eCurrency cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2801,8 +2692,8 @@ Figyelem: Mivel bájtonként lesz a dj kiszámolva ezért a "100 satoshi per kB"
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Üzenet</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>Üzenet </translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2821,24 +2712,12 @@ Figyelem: Mivel bájtonként lesz a dj kiszámolva ezért a "100 satoshi per kB"
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Da preverite verodostojnost sporočila, spodaj vnesite: prejemnikov naslov, prejeto sporočilo (pazljivo skopirajte vse prelome vrstic, presledke, tabulatorje ipd.,) in prejeti podpis. Da se izognete napadom tipa man-in-the-middle, vedite, da iz veljavnega podpisa ne sledi nič drugega, kot tisto, kar je navedeno v sporočilu. Podpis samo potrjuje dejstvo, da ima podpisnik v lasti prejemni naslov, ne more pa dokazati vira nobene transakcije!</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>eCurrency cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin cím, amivel aláírta az üzenetet</translation>
-    </message>
-    <message>
-        <source>The signed message to verify</source>
-        <translation>Az aláírt üzenet ellenőrzésre</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>A kapott aláírás  amikor az üzenet alá lett írva.</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Bitcoin címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt eCurrency címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3550,6 +3429,10 @@ A Fájl &gt; Megnyitás menüben lehet megnyitni.
         <translation>HTTP szerver indítása sikertelen. A részleteket lásd: debug log.</translation>
     </message>
     <message>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
+    </message>
+    <message>
         <source>The %s developers</source>
         <translation>A %s fejlesztők</translation>
     </message>
@@ -4005,19 +3888,7 @@ A Fájl &gt; Megnyitás menüben lehet megnyitni.
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Fedezethiány</translation>
-    </message>
-    <message>
-        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
-        <translation>Díjbecslés sikertelen. Alapértelmezett díj le van tiltva. Fárj néhány blokkot vagy engedélyezd a -fallbackfee -t.</translation>
-    </message>
-    <message>
-        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
-        <translation>Figyelem: Privát kulcsokat észleltünk a {%s} tárcában, melynél a privát kulcsok le vannak tiltva.</translation>
-    </message>
-    <message>
-        <source>Cannot write to data directory '%s'; check permissions.</source>
-        <translation>Nem tudok írni a '%s' könyvtárba, ellenőrizd a jogosultságokat.</translation>
+        <translation>Nincs elég ecurrencyod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

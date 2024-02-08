@@ -66,13 +66,12 @@
         <translation>Ricevaj adresoj</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Bitmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Jen viaj eCurrency-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Jen viaj bitmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Jen viaj ecurrencyj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -181,24 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enigi la novan pasfrazon por la monujo. &lt;br/&gt;Bonvolu uzi pasfrazon de &lt;b&gt;dek aŭ pli hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;ok aŭ pli vortoj&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Enigi la malnovan pasfrazon kaj la novan pasfrazon por la monujo.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Monujo ĉifriĝota</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Via monujo estas ĉifriĝota.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Via monujo ĵus estas ĉifrata.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -347,8 +330,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Sendi monon al Bitmon-adreso</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Sendi monon al eCurrency-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -361,6 +344,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Kontroli mesaĝon...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Monujo</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -383,12 +374,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Bitmon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Subskribi mesaĝojn per via eCurrency-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Bitmon-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj eCurrency-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -407,8 +398,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso bitcoin:)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso ecurrency:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -417,6 +408,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Malfermi ecurrency:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -848,8 +843,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitmono</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -980,8 +975,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Bitmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi la kursilan pordon por eCurrency. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1037,7 +1032,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elekti la defaŭltan manieron por montri bitmonajn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+        <translation>Elekti la defaŭltan manieron por montri ecurrencyjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1079,12 +1074,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
-    </message>
-    <message>
-        <source>Available:</source>
-        <translation>Disponebla:</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la ecurrency reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1534,7 +1525,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Bitmonon</translation>
+        <translation>Sendi eCurrencyn</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1685,8 +1676,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Kreo de transakcio fiaskis!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Averto: Nevalida Bitmon-adreso</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>Averto: Nevalida eCurrency-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1790,8 +1781,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Bitmon-adreso</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu eCurrency-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1810,8 +1801,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Bitmon-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa eCurrency-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2222,7 +2213,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Bitmonon</translation>
+        <translation>Sendi eCurrencyn</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -2262,6 +2253,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </context>
 <context>
     <name>bitcoin-core</name>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>Kerno de eCurrencyo</translation>
+    </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Tiu ĉi estas antaŭeldona testa versio - uzu laŭ via propra risko - ne uzu por minado aŭ por aplikaĵoj por vendistoj</translation>

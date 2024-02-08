@@ -66,13 +66,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u eCurrency betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u eCurrencys sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -169,8 +168,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U ECURRENCYS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -359,12 +358,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a Bitcoin address</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Stuur munte na 'n eCurrency adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -376,7 +371,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <translation>&amp;Verifieer boodskap...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Beursie</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -399,12 +402,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Encrypt the private keys that belong to your wallet</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u eCurrency adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde eCurrency adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,8 +426,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Request payments (generates QR codes and bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en ecurrency: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -432,7 +435,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Show the list of used receiving addresses and labels</translation>
+        <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Skep 'n ecurrency: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -615,8 +622,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Incoming transaction</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. eCurrency kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
@@ -875,16 +882,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>The entered address "%1" is not a valid Bitcoin address.</translation>
-    </message>
-    <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>The entered address "%1" is already in the address book with label "%2".</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige eCurrency adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -972,24 +971,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Discard blocks after verification, except most recent %1 GB (prune)</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>At least %1 GB of data will be stored in this directory, and it will grow over time.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Approximately %1 GB of data will be stored in this directory.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 will download and store a copy of the Bitcoin block chain.</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1535,8 +1518,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Enter a Bitcoin address (e.g. %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>Voer in 'n eCurrency adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3245,7 +3228,106 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Export the data in the current tab to a file</translation>
+        <translation>Voer die inligting op hierdie bladsy uit na 'n leer</translation>
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Kern</translation>
+    </message>
+    <message>
+        <source>Error loading %s</source>
+        <translation>Fout met laai %s</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Besig met invoer...</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Inligting</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Teken van transaksie het misluk</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Dié is eksperimentele sagteware.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Transaksie bedrag te klein</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Transaksie te groot</translation>
+    </message>
+    <message>
+        <source>Verifying wallet(s)...</source>
+        <translation>Besig met verifieer van beursie(s)...</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Waarskuwing</translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation>%s is baie hoog gestel!</translation>
+    </message>
+    <message>
+        <source>Starting network threads...</source>
+        <translation>Begin tans netwerkdrade...</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>Dit is die minimum transaksie fooi wat u betaal op elke transaksie.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Dit is die transaksie fooi wat u sal betaal as u 'n transaksie stuur.</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation>Transaksies bedrae moet nie negatief wees nie</translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation>Transaksie se mempool ketting is te lank</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation>Transaksie moet ten minste een ontvanger hê</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Onbekende netwerk gespesifiseer in -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Onvoldoende fondse</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Blokindeks word gelaai...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Beursie word gelaai...</translation>
+    </message>
+    <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Kan nie beursie afgradeer nie</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Word herskandeer...</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Klaar gelaai</translation>
     </message>
     <message>
         <source>Error</source>

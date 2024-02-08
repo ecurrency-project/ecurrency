@@ -38,6 +38,14 @@
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Капчык</translation>
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
@@ -103,8 +111,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -334,8 +342,5 @@
         <source>Error</source>
         <translation>Ката</translation>
     </message>
-    </context>
-<context>
-    <name>bitcoin-core</name>
-    </context>
+</context>
 </TS>

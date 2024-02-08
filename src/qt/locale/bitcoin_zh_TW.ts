@@ -66,13 +66,12 @@
         <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要發送過去的 比特幣地址。在發送幣之前，務必要檢查金額和接收地址是否正確。</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這些是你要付款過去的 eCurrency 位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>這些是您的比特幣接收地址。使用“接收”標籤中的“產生新的接收地址”按鈕產生新的地址。只能使用“傳統”類型的地址進行簽名。</translation>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這些是你用來收款的 eCurrency 位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -169,8 +168,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Bitcoin 了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 eCurrency 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -181,28 +180,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>輸入錢包的新密碼短語。&lt;br/&gt;請使用&lt;b&gt;個或10個以上隨機字符&lt;/b&gt;或&lt;b&gt;個8個以上單詞3的密碼。</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>輸入錢包的密碼短語和新密碼短語。</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>請記得, 即使將錢包加密, 也不能完全防止因惡意軟體入侵, 而導致位元幣被偷.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>加密錢包</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>你的錢包將被加密</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>你的錢包現已被加密</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取錢幣。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -359,8 +338,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>代理伺服器&lt;b&gt;已經啟用&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>發送幣給一個比特幣地址</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>付錢給一個 eCurrency 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,7 +351,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;驗證訊息...</translation>
+        <translation>驗證訊息(&amp;V)...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>錢包</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -395,12 +382,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>將錢包中之密鑰加密</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>用比特幣地址簽名訊息來證明位址是你的</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>用 eCurrency 位址簽署訊息來證明位址是你的</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>驗證訊息是用來確定訊息是用指定的比特幣地址簽名的</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>驗證訊息是用來確定訊息是用指定的 eCurrency 位址簽署的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,8 +406,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>分頁工具列</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>要求付款(產生 QR Code 和 bitcoin 付款協議的資源識別碼: URI)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>要求付款(產生 QR Code 和 ecurrency 付款協議的資源識別碼: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -428,15 +415,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>顯示已使用過的接收地址和標籤清單</translation>
+        <translation>顯示已使用過的收款位址和標記的清單</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>開啓 ecurrency 協議的資源識別碼(URI)或付款要求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;命令行選項</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n 個運作中的 Bitcoin 網路連線</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n 個運作中的 eCurrency 網路連線</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -479,67 +470,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>最新狀態</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>從檔案中載入PSBT ...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>載入部分簽名的比特幣交易</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>從剪貼簿載入PSBT ...</translation>
-    </message>
-    <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>從剪貼簿載入部分簽名的比特幣交易</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>節點視窗</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>開啟節點調試和診斷控制台</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>&amp;發送地址</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>&amp;接收地址</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>打開一個比特幣：URI</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>打開錢包</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>打開一個錢包檔</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>關上錢包...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>關上錢包</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>關閉所有錢包...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>關閉所有錢包</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
         <translation>顯示 %1 的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message>
@@ -659,8 +590,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>錢包&lt;b&gt;已加密&lt;/b&gt;並且&lt;b&gt;上鎖中&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>原始訊息：</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>發生了致命的錯誤。eCurrency 軟體沒辦法再繼續安全執行，只好結束。</translation>
     </message>
     </context>
 <context>
@@ -911,8 +842,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>編輯發送地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>輸入的地址 %1 並不是有效的比特幣地址。</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>輸入的位址 %1 並不是有效的 eCurrency 位址。</translation>
+    </message>
+    <message>
+        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
+        <translation>%1 已經是標記為 %2 的收款位址了，不可以又是付款位址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book with label "%2".</source>
@@ -1004,8 +939,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>使用自訂的資料目錄:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1016,8 +951,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>在這個目錄中大約會存放 %1 GB 的資料。</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 會下載 Bitcoin 區塊鏈並且儲存一份副本。</translation>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
+        <translation>%1 會下載 eCurrency 區塊鏈並且儲存一份副本。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1051,12 +986,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>表單</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>最近的交易可能還看不到，因此錢包餘額可能不正確。在錢包軟體完成跟 bitcoin 網路的同步後，這裡的資訊就會正確。詳情請見下面。</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>最近的交易可能還看不到，因此錢包餘額可能不正確。在錢包軟體完成跟 ecurrency 網路的同步後，這裡的資訊就會正確。詳情請見下面。</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>使用還沒顯示出來的交易所影響到的 bitcoin 可能會不被網路所接受。</translation>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>使用還沒顯示出來的交易所影響到的 ecurrency 可能會不被網路所接受。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1164,6 +1099,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>如果對這種網路類型，有指定用來跟其他節點聯絡的 SOCKS5 代理伺服器的話，就會顯示在這裡。</translation>
     </message>
     <message>
+        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
+        <translation>透過另外的 SOCKS&amp;5 代理伺服器來連線到 eCurrency 網路中的 Tor 隱藏服務:</translation>
+    </message>
+    <message>
         <source>Hide the icon from the system tray.</source>
         <translation>隱藏系統通知區圖示</translation>
     </message>
@@ -1244,8 +1183,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;可以花費還未確認的找零</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開放 Bitcoin 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動在路由器上開放 eCurrency 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1260,8 +1199,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>接受外來連線(&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>透過 SOCKS5 代理伺服器來連線到 Bitcoin 網路。</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>透過 SOCKS5 代理伺服器來連線到 eCurrency 網路。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1294,6 +1233,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>透過另外的 SOCKS5 代理伺服器來連線到 eCurrency 網路中的 Tor 隱藏服務。</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1411,8 +1354,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>表單</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>顯示的資訊可能是過期的。跟 Bitcoin 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>顯示的資訊可能是過期的。跟 eCurrency 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1585,16 +1528,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>沒辦法啟動 bitcoin 協議的「按就付」處理器</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>沒辦法啟動 ecurrency 協議的「按就付」處理器</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI 處理</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>字首為 bitcoin:// 不是有效的 URI，請改用 bitcoin: 開頭。</translation>
+        <source>'ecurrency://' is not a valid URI. Use 'ecurrency:' instead.</source>
+        <translation>字首為 ecurrency:// 不是有效的 URI，請改用 ecurrency: 開頭。</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.</source>
@@ -1613,8 +1556,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>無效支付地址 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>沒辦法解析 URI ！可能是因為無效比特幣地址，或是 URI 參數格式錯誤。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>沒辦法解析 URI 位址！可能是因為 eCurrency 位址無效，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1655,8 +1598,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>金額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>輸入 比特幣地址 (比如說 %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>輸入 eCurrency 位址 (比如說 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2112,8 +2055,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>訊息(&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 Bitcoin 網路上。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 eCurrency 網路上。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2361,6 +2304,14 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>隱藏</translation>
     </message>
     <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>當交易量少於區塊可容納的空間時，只付最低手續費不會有什麽問題。但是當交易量的需求成長到超過整體網路可以處理的量時，可能會造成一筆一直不會被確認的交易。</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(請看提示)</translation>
+    </message>
+    <message>
         <source>Recommended:</source>
         <translation>建議值:</translation>
     </message>
@@ -2581,8 +2532,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>预计在等待 %n 个区块后会有第一个确认。</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告: 比特幣地址無效</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>警告: eCurrency 位址無效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2620,8 +2571,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>選擇先前使用過的地址</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>將支付發送到的比特幣地址給</translation>
+        <source>This is a normal payment.</source>
+        <translation>這是一筆正常的付款。</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>接收付款的 eCurrency 位址</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2640,12 +2595,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>刪掉這個項目</translation>
     </message>
     <message>
-        <source>The amount to send in the selected unit</source>
-        <translation>以所選單位發送的金額</translation>
-    </message>
-    <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 bitcoin。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 ecurrency。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2672,8 +2623,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>請輸入這個地址的標籤，來把它加進去已使用過地址清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>附加在 Bitcoin 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 Bitcoin 網路上。</translation>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
+        <translation>附加在 eCurrency 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 eCurrency 網路上。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2706,12 +2657,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>簽署訊息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>您可以使用您的地址簽名訊息/協議，以證明您可以接收發送給他們的比特幣。但是請小心，不要簽名語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽名的手法來冒充是你。只有簽名您同意的詳細內容。</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive ecurrencies sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>你可以用自己的位址簽署訊息或合約，來證明你可以從該位址收款。但是請小心，不要簽署語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>用來簽名訊息的 比特幣地址</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>用來簽署訊息的 eCurrency 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2742,8 +2693,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>簽名這個訊息來證明這個比特幣地址是你的</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>簽署這個訊息來證明這個 eCurrency 位址是你的</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2766,20 +2717,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>請在下面輸入收款人的地址，訊息(請確定完整複製了所包含的換行、空格、tabs...等)，以及簽名，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽名本身過度解讀，以避免被用「中間人攻擊法」詐騙。請注意，通過驗證的簽名只能證明簽名人確實可以從該地址收款，不能證明任何交易中的付款人身份！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>簽名這個訊息的 比特幣地址</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>簽署這個訊息的 eCurrency 位址</translation>
     </message>
     <message>
-        <source>The signed message to verify</source>
-        <translation>簽名訊息進行驗證</translation>
-    </message>
-    <message>
-        <source>The signature given when the message was signed</source>
-        <translation>簽名訊息時給出的簽名</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>驗證這個訊息來確定是用指定的比特幣地址簽名的</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>驗證這個訊息來確定是用指定的 eCurrency 位址簽署的</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3485,6 +3428,10 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
         <translation>無法啟動 HTTP 伺服器。詳情請看除錯紀錄。</translation>
+    </message>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

@@ -70,6 +70,14 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
+        <source>eCurrency</source>
+        <translation>Биткоин</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Әмиян</translation>
+    </message>
+    <message>
         <source>&amp;Send</source>
         <translation>Жіберу</translation>
     </message>
@@ -167,7 +175,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>eCurrency</source>
         <translation>Биткоин</translation>
     </message>
     <message>

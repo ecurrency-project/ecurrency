@@ -66,8 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Bitcoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar bitcoin.</translation>
+        <source>These are your eCurrency addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina eCurrency-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar ecurrency.</translation>
+    </message>
+    <message>
+        <source>These are your eCurrency addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina eCurrency-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -165,8 +169,8 @@ Försök igen.</translation>
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer din lösenfras, &lt;b&gt;FÖRLORAR DU ALLA DINA BITCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ECURRENCYS&lt;/b&gt;!</source>
+        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA ECURRENCY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,28 +181,8 @@ Försök igen.</translation>
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Ange den nya lösenfrasen för plånboken. &lt;br/&gt; Använd en lösenfras på &lt;b&gt;tio eller fler slumpmässiga tecken&lt;/b&gt;, eller &lt;b&gt;åtta eller fler ord&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Ange den gamla lösenfrasen och den nya lösenfrasen för plånboken.</translation>
-    </message>
-    <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Kom ihåg att kryptering av din plånbok inte helt kan skydda dig från stöld av dina bitcoins om skadlig kod infekterat din dator.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Plånbok som ska krypteras</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Din plånbok kommer att krypteras.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Din plånbok är nu krypterad.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ecurrencies from being stolen by malware infecting your computer.</source>
+        <translation>%1 kommer nu att stänga ner för att slutföra krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -355,12 +339,8 @@ Försök igen.</translation>
         <translation>Indexerar om block på disken...</translation>
     </message>
     <message>
-        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Proxy är &lt;b&gt; aktiverad &lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Skicka bitcoin till en Bitcoin-adress</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Skicka ecurrency till en eCurrency-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -373,6 +353,14 @@ Försök igen.</translation>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifiera meddelande...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Plånbok</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -395,12 +383,12 @@ Försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Bitcoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your eCurrency addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina eCurrency-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Bitcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified eCurrency addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna eCurrency-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,8 +407,8 @@ Försök igen.</translation>
         <translation>Verktygsfält för flikar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Begär betalningar (skapar QR-koder och bitcoin: -URIer)</translation>
+        <source>Request payments (generates QR codes and ecurrency: URIs)</source>
+        <translation>Begär betalningar (skapar QR-koder och ecurrency: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -428,15 +416,19 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Visa listan med använda mottagaradresser och etiketter</translation>
+        <translation>Visa listan med använda mottagningsadresser och etiketter</translation>
+    </message>
+    <message>
+        <source>Open a ecurrency: URI or payment request</source>
+        <translation>Öppna en ecurrency: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to eCurrency network</source>
+        <translation><numerusform>%n aktiva anslutningar till eCurrency-nätverket.</numerusform><numerusform>%n aktiva anslutningar till eCurrency-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -479,92 +471,8 @@ Försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>&amp;Load PSBT from file...</source>
-        <translation>&amp;Läs in PSBT från fil...</translation>
-    </message>
-    <message>
-        <source>Load PSBT from clipboard...</source>
-        <translation>Läs in PSBT från urklipp...</translation>
-    </message>
-    <message>
-        <source>Node window</source>
-        <translation>Nod-fönster</translation>
-    </message>
-    <message>
-        <source>Open node debugging and diagnostic console</source>
-        <translation>Öppna nodens konsol för felsökning och diagnostik</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses</source>
-        <translation>Av&amp;sändaradresser</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses</source>
-        <translation>Mottaga&amp;radresser</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>Öppna en bitcoin:-URI</translation>
-    </message>
-    <message>
-        <source>Open Wallet</source>
-        <translation>Öppna plånbok</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>Öppna en plånbok</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>Stäng plånbok</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Stäng plånboken</translation>
-    </message>
-    <message>
-        <source>Close All Wallets...</source>
-        <translation>Stäng alla plånböcker...</translation>
-    </message>
-    <message>
-        <source>Close all wallets</source>
-        <translation>Stäng alla plånböcker</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
-    </message>
-    <message>
-        <source>&amp;Mask values</source>
-        <translation>&amp;Dölj värden</translation>
-    </message>
-    <message>
-        <source>Mask the values in the Overview tab</source>
-        <translation>Dölj värden i översiktsfliken</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>Standardplånbok</translation>
-    </message>
-    <message>
-        <source>No wallets available</source>
-        <translation>Inga plånböcker tillgängliga</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Fönster</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>Minimera</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>Zooma</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Huvudfönster</translation>
+        <source>Show the %1 help message to get a list with possible eCurrency command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga eCurrency kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -651,8 +559,8 @@ Försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Original message:</source>
-        <translation>Ursprungligt meddelande:</translation>
+        <source>A fatal error occurred. eCurrency can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. eCurrency kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
     </context>
 <context>
@@ -895,16 +803,8 @@ Försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
-    </message>
-    <message>
-        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>Adressen "%1" finns redan som en mottagaradress med etikett "%2" och kan därför inte anges som sändaradress.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>Den angivna adressen "%1" finns redan i adressboken med etikett "%2".</translation>
+        <source>The entered address "%1" is not a valid eCurrency address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig eCurrency-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -992,12 +892,8 @@ Försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
-        <translation>Släng block efter verifiering, förutom de senaste %1 GB (gallra).</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1008,8 +904,8 @@ Försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Bitcoins blockkedja.</translation>
+        <source>%1 will download and store a copy of the eCurrency block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av eCurrency-blockkedjan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1043,12 +939,12 @@ Försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Bitcoin-nätverket enligt informationen nedan.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ecurrency network, as detailed below.</source>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med eCurrency-nätverket enligt detaljer nedan.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera bitcoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket.</translation>
+        <source>Attempting to spend ecurrencies that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Att försöka spendera ecurrency som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1236,8 +1132,8 @@ Försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the eCurrency client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt eCurrency-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1252,8 +1148,8 @@ Försök igen.</translation>
         <translation>Tillåt inkommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Bitcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the eCurrency network through a SOCKS5 proxy.</source>
+        <translation>Anslut till eCurrency-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1286,6 +1182,10 @@ Försök igen.</translation>
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the eCurrency network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till eCurrency-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1395,8 +1295,8 @@ Försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eCurrency network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med eCurrency-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1485,8 +1385,8 @@ Försök igen.</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan inte starta bitcoin: klicka-och-betala hanteraren</translation>
+        <source>Cannot start ecurrency: click-to-pay handler</source>
+        <translation>Kan inte starta ecurrency: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1509,8 +1409,8 @@ Försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI-parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid eCurrency address or malformed URI parameters.</source>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig eCurrency-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1551,8 +1451,8 @@ Försök igen.</translation>
         <translation>Belopp</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ange en Bitcoin-adress (t.ex. %1)</translation>
+        <source>Enter a eCurrency address (e.g. %1)</source>
+        <translation>Ange en eCurrency-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1992,8 +1892,8 @@ Försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Bitcoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the eCurrency network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över eCurrency-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2226,7 +2126,15 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Hide</source>
-        <translation>Dölj</translation>
+        <translation>Göm</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ecurrency transactions than the network can process.</source>
+        <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på ecurrency-transaktioner är större än vad nätverket kan hantera.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(läs verktygstips)</translation>
     </message>
     <message>
         <source>Recommended:</source>
@@ -2429,8 +2337,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Varning: Ogiltig Bitcoin-adress</translation>
+        <source>Warning: Invalid eCurrency address</source>
+        <translation>Varning: Ogiltig eCurrency-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2468,8 +2376,12 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Välj tidigare använda adresser</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin-adress att sända betalning till</translation>
+        <source>This is a normal payment.</source>
+        <translation>Detta är en normal betalning.</translation>
+    </message>
+    <message>
+        <source>The eCurrency address to send the payment to</source>
+        <translation>eCurrency-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2488,12 +2400,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ta bort denna post</translation>
     </message>
     <message>
-        <source>The amount to send in the selected unit</source>
-        <translation>Beloppett att skicka i vald enhet</translation>
-    </message>
-    <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre bitcoin än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ecurrencies than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre ecurrency än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2520,8 +2428,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Ett meddelande som bifogades bitcoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Bitcoin-nätverket.</translation>
+        <source>A message that was attached to the ecurrency: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the eCurrency network.</source>
+        <translation>Ett meddelande som bifogades ecurrency: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över eCurrency-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2554,12 +2462,12 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>&amp;Signera meddelande</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive ecurrencies sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot ecurrency som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin-adress att signera meddelandet med</translation>
+        <source>The eCurrency address to sign the message with</source>
+        <translation>eCurrency-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2590,8 +2498,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Bitcoin-adress</translation>
+        <source>Sign the message to prove you own this eCurrency address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna eCurrency-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2614,16 +2522,12 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin-adress som meddelandet signerades med</translation>
+        <source>The eCurrency address the message was signed with</source>
+        <translation>eCurrency-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>The signed message to verify</source>
-        <translation>Signerat meddelande som ska verifieras</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Bitcoin-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified eCurrency address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven eCurrency-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3182,11 +3086,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Bitcoins</translation>
-    </message>
-    <message>
-        <source>Fee bump error</source>
-        <translation>Avgiftsökningsfel</translation>
+        <translation>Skicka eCurrencys</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
@@ -3296,7 +3196,11 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Kunde inte starta HTTP-server. Se felsökningsloggen för detaljer.</translation>
+        <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
+    </message>
+    <message>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3698,19 +3602,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med bitcoins</translation>
-    </message>
-    <message>
-        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
-        <translation>Avgiftsuppskattning misslyckades. Fallbackfee är inaktiverat. Vänta några block eller aktivera -fallbackfee.</translation>
-    </message>
-    <message>
-        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
-        <translation>Varning: Privata nycklar upptäcktes i plånbok (%s) vilken har dessa inaktiverade</translation>
-    </message>
-    <message>
-        <source>Cannot write to data directory '%s'; check permissions.</source>
-        <translation>Kan inte skriva till mapp "%s", var vänlig se över filbehörigheter.</translation>
+        <translation>Otillräckligt med ecurrencies</translation>
     </message>
     <message>
         <source>Loading block index...</source>

@@ -126,12 +126,20 @@
         <translation>Повторно индексирање на блокови од дискот...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Испрати биткоини на Биткоин адреса</translation>
+        <source>Send coins to a eCurrency address</source>
+        <translation>Испрати ecurrency на eCurrency адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Потврди порака...</translation>
+    </message>
+    <message>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Паричник</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -285,8 +293,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Биткоин</translation>
+        <source>eCurrency</source>
+        <translation>eCurrency</translation>
     </message>
     <message>
         <source>Error</source>
@@ -589,8 +597,8 @@
 <context>
     <name>WalletView</name>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Експорт</translation>
+        <source>eCurrency Core</source>
+        <translation>eCurrency Core</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -600,8 +608,5 @@
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
-    </context>
-<context>
-    <name>bitcoin-core</name>
-    </context>
+</context>
 </TS>
