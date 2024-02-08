@@ -455,8 +455,12 @@ Threads
     : Application level message handling (sending and receiving). Almost
     all net_processing and validation logic runs on this thread.
 
+<<<<<<< HEAD
   - [ThreadDNSAddressSeed (`b-dnsseed`)](https://doxygen.bitcoincore.org/class_c_connman.html#aa7c6970ed98a4a7bafbc071d24897d13)
     : Loads addresses of peers from the DNS.
+=======
+- ThreadRPCServer : Remote procedure call handler, listens on port 9776 for connections and services them.
+>>>>>>> 4ffd51316 (Change default rpc and p2p ports)
 
   - [ThreadMapPort (`b-upnp`)](https://doxygen.bitcoincore.org/net_8cpp.html#a63f82a71c4169290c2db1651a9bbe249)
     : Universal plug-and-play startup/shutdown.
