@@ -25,6 +25,8 @@
 #include <wallet/scriptpubkeyman.h>
 #include <wallet/walletdb.h>
 #include <wallet/walletutil.h>
+#include <wallet/rpcwallet.h>
+#include <boost/optional.hpp>
 
 #include <algorithm>
 #include <atomic>
