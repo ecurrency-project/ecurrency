@@ -154,21 +154,24 @@ public:
 
         checkpointData = {
             {
-                {   100, uint256S("0xfc508a4e7d32b308818727c6e0f16ea67e03360a7dbb7ca6ca12e503ca16ecb6")},
-                {  1500, uint256S("0xe603134714dc0e23d819e2e44545bb5055ad96d602b32d5fab189679d11e2669")},
-                { 10000, uint256S("0xdf302a2ad72891695942dd102fa26fda46380e7d14802f8212ac6851d1b57639")},
-                {100000, uint256S("0x34d4b7e0c14e5d4f250d518f64eafc9e92a926e0edfa794987c4f5a886fd83e0")},
-                {500000, uint256S("0x046b9cb20d9c880c7303e23e93ff0aacd72b48815dcf3a76e96e45603168734d")},
-                {900000, uint256S("0x62519303124585282b6365d97d09ce018beef7bddb9bf99455b11aca362d32b9")},
+                {    100, uint256S("0xfc508a4e7d32b308818727c6e0f16ea67e03360a7dbb7ca6ca12e503ca16ecb6")},
+                {   1500, uint256S("0xe603134714dc0e23d819e2e44545bb5055ad96d602b32d5fab189679d11e2669")},
+                {  10000, uint256S("0xdf302a2ad72891695942dd102fa26fda46380e7d14802f8212ac6851d1b57639")},
+                { 100000, uint256S("0x34d4b7e0c14e5d4f250d518f64eafc9e92a926e0edfa794987c4f5a886fd83e0")},
+                { 500000, uint256S("0x046b9cb20d9c880c7303e23e93ff0aacd72b48815dcf3a76e96e45603168734d")},
+                { 900000, uint256S("0x62519303124585282b6365d97d09ce018beef7bddb9bf99455b11aca362d32b9")},
+                {1638770, uint256S("0x0dc4c1ae02afbaca50de60899acfff2b3c039ad355cbed9d2a7408fd36f5ae59")},
             }
         };
 
         chainTxData = ChainTxData{
-            // Data from rpc: getchaintxstats 4096 62e2e3d21343a00994d38a63524867507dbeee6850e8fbf02e9c47a3ccf82f24
-            /* nTime    */ 1641142661,
-            /* nTxCount */ 100225898,
-            /* dTxRate  */ 1.17733189266096
+            /* nTime    */ 0,
+            /* nTxCount */ 0,
+            /* dTxRate  */ 0
         };
+
+        /* enable fallback fee on mainnet */
+        m_fallback_fee_enabled = true;
     }
 };
 
