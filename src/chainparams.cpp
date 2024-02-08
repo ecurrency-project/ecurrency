@@ -53,7 +53,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
     const char* pszTimestamp = "NY Times 04/Jan/2018 Meltdown and Spectre, the big PC security flaws hidden in your devices";
-    const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a8") << OP_CHECKSIG;
+    const CScript genesisOutputScript = CScript() << ParseHex("04f2e80c2e9eb1fc7c3561a3872439a265f80a8513451a37ea67baa4ded6a30098283cd5333365b2893503c2b747720f35bb361a04359d2815373bb64f68eae470") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -126,11 +126,11 @@ public:
         m_assumed_blockchain_size = 40;
         m_assumed_chain_state_size = 2;
 
-        genesis = CreateGenesisBlock(1514764800, 2084532265, 0x1e7fffff, 1, 333 * COIN);
+        genesis = CreateGenesisBlock(1514764800, 2084592912, 0x1e7fffff, 1, 333333333 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        assert(consensus.hashGenesisBlock == uint256S("0x7be6ab4dfae825949679569a7f6126e4db3434848679e051bcfff5edcdaac75b"));
-        assert(genesis.hashMerkleRoot == uint256S("0x4bf46a6b44048b292f871675f4102826b5ba85acb7e7a6819ec87002f32b4108"));
+        assert(consensus.hashGenesisBlock == uint256S("0x90d5a026af1ce1f31fca0f0ae12f8ce74c73470b151fb0ecbd1b3a8ad0e0ccb9"));
+        assert(genesis.hashMerkleRoot == uint256S("0xeb734566ea3b1da57bdedb44e63e7e2340a574cc77a32b202eddf7cd3f1fe6f9"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
