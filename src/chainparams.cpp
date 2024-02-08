@@ -137,11 +137,9 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        // vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk");
-        // vSeeds.emplace_back("dnsseed.thrasher.io");
-        // vSeeds.emplace_back("dnsseed.litecointools.com");
-        // vSeeds.emplace_back("dnsseed.litecoinpool.org");
-        // vSeeds.emplace_back("dnsseed.koin-project.com");
+        vSeeds.emplace_back("ecr1.crypto.yttm.work");
+        vSeeds.emplace_back("ecr2.crypto.yttm.work");
+        vSeeds.emplace_back("ecr3.crypto.yttm.work");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -249,10 +247,10 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // nodes with support for servicebits filtering should be at the top
-        // vSeeds.emplace_back("testnet-seed.ecurrencytools.com");
-        // vSeeds.emplace_back("seed-b.ecurrency.loshan.co.uk");
-        // vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
+        // nodes with support for service bits filtering should be at the top
+        vSeeds.emplace_back("ecr1.crypto.yttm.work");
+        vSeeds.emplace_back("ecr2.crypto.yttm.work");
+        vSeeds.emplace_back("ecr3.crypto.yttm.work");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
