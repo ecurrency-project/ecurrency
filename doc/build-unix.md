@@ -218,7 +218,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./ecurrency
+	scanelf -e ./ecurrency
 
     The output should contain:
 
