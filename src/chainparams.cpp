@@ -335,8 +335,8 @@ public:
 
         genesis = CreateGenesisBlock(1296688602, 0, 0x207fffff, 1, 1000 * COIN, "04f2e80c2e9eb1fc7c3561a3872439a265f80a8513451a37ea67baa4ded6a30098283cd5333365b2893503c2b747720f35bb361a04359d2815373bb64f68eae470");
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0xbffde4cf60f7c4fc15f08f47a39f2faa69251168d97e6eb4ef4cd561512b2fd3"));
+        assert(genesis.hashMerkleRoot == uint256S("0x267c3d10b322187583d83595c66f0ecaa47e4d97634a696753ea6db199dfbeb1"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
