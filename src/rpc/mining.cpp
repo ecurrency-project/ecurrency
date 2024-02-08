@@ -863,6 +863,8 @@ static RPCHelpMan getblocktemplate()
         }
     }
     result.pushKV("version", pblock->nVersion);
+    if (!fPreSegWit)
+        aRules.push_back("segwit");
     result.pushKV("rules", aRules);
     result.pushKV("vbavailable", vbavailable);
     result.pushKV("vbrequired", int(0));
