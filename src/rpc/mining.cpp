@@ -186,10 +186,6 @@ static bool getScriptFromDescriptor(const std::string& descriptor, CScript& scri
         // Combo descriptors can have 2 or 4 scripts, so we can't just check scripts.size() == 1
         CHECK_NONFATAL(scripts.size() > 0 && scripts.size() <= 4);
 
-        for (const DestinationAddr& script : scripts) {
-            CHECK_NONFATAL(!script.IsMWEB());
-        }
-
         if (scripts.size() == 1) {
             script = scripts.at(0).GetScript();
         } else if (scripts.size() == 4) {
@@ -433,7 +429,6 @@ static RPCHelpMan getmininginfo()
     UniValue obj(UniValue::VOBJ);
     obj.pushKV("blocks",           (int)::ChainActive().Height());
     if (BlockAssembler::m_last_block_weight) obj.pushKV("currentblockweight", *BlockAssembler::m_last_block_weight);
-    if (BlockAssembler::m_last_block_mweb_weight) obj.pushKV("currentblockmwebweight", *BlockAssembler::m_last_block_mweb_weight);
     if (BlockAssembler::m_last_block_num_txs) obj.pushKV("currentblocktx", *BlockAssembler::m_last_block_num_txs);
     obj.pushKV("difficulty",       (double)GetDifficulty(::ChainActive().Tip()));
     obj.pushKV("networkhashps",    getnetworkhashps().HandleRequest(request));
@@ -534,7 +529,6 @@ static RPCHelpMan getblocktemplate()
                             {"rules", RPCArg::Type::ARR, RPCArg::Optional::NO, "A list of strings",
                                 {
                                     {"segwit", RPCArg::Type::STR, RPCArg::Optional::NO, "(literal) indicates client side segwit support"},
-                                    {"mweb", RPCArg::Type::STR, RPCArg::Optional::NO, "(literal) indicates client side MWEB support"},
                                     {"str", RPCArg::Type::STR, RPCArg::Optional::OMITTED, "other client side supported softfork deployment"},
                                 },
                                 },
@@ -590,12 +584,11 @@ static RPCHelpMan getblocktemplate()
                         {RPCResult::Type::NUM_TIME, "curtime", "current timestamp in " + UNIX_EPOCH_TIME},
                         {RPCResult::Type::STR, "bits", "compressed target of next block"},
                         {RPCResult::Type::NUM, "height", "The height of the next block"},
-                        {RPCResult::Type::STR, "default_witness_commitment", /* optional */ true, "a valid witness commitment for the unmodified block template"},
-                        {RPCResult::Type::STR, "mweb", /* optional */ true, "the MWEB block serialized as hex"}
+                        {RPCResult::Type::STR, "default_witness_commitment", /* optional */ true, "a valid witness commitment for the unmodified block template"}
                     }},
                 RPCExamples{
-                    HelpExampleCli("getblocktemplate", "'{\"rules\": [\"mweb\", \"segwit\"]}'")
-            + HelpExampleRpc("getblocktemplate", "{\"rules\": [\"mweb\", \"segwit\"]}")
+                    HelpExampleCli("getblocktemplate", "'{\"rules\": [\"segwit\"]}'")
+            + HelpExampleRpc("getblocktemplate", "{\"rules\": [\"segwit\"]}")
                 },
         [&](const RPCHelpMan& self, const JSONRPCRequest& request) -> UniValue
 {
@@ -863,8 +856,6 @@ static RPCHelpMan getblocktemplate()
         }
     }
     result.pushKV("version", pblock->nVersion);
-    if (!fPreSegWit)
-        aRules.push_back("segwit");
     result.pushKV("rules", aRules);
     result.pushKV("vbavailable", vbavailable);
     result.pushKV("vbrequired", int(0));

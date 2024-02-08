@@ -92,9 +92,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].nTimeoutHeight = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // Deployment of MWEB (LIP-0002, LIP-0003, and LIP-0004)
-        consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].bit = 4;
-        consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].nStartHeight = Consensus::BIP9Deployment::NEVER_ACTIVE;
-        consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].nTimeoutHeight = Consensus::BIP9Deployment::NO_TIMEOUT;
+        // consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].bit = 4;
+        // consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].nStartHeight = Consensus::BIP9Deployment::NEVER_ACTIVE;
+        // consensus.vDeployments[Consensus::DEPLOYMENT_MWEB].nTimeoutHeight = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
